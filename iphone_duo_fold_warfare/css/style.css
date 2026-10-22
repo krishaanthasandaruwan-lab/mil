@@ -1,0 +1,654 @@
+:root {
+    --bg-dark: #1b2218;
+    --panel-olive: #2b3726;
+    --border-cartoon: #11160f;
+    --accent-orange: #ff7b00;
+    --accent-green: #58b836;
+    --accent-blue: #2998ff;
+    --accent-red: #e63946;
+    --text-cream: #f4f1de;
+    --gold: #ffd166;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    font-family: 'Trebuchet MS', 'Segoe UI', sans-serif;
+}
+
+body {
+    background: radial-gradient(circle at center, #2f3e28 0%, #141a12 100%);
+    color: var(--text-cream);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+/* Top Bar - Mini Militia Cartoon Style */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #232d1e;
+    border-bottom: 4px solid var(--border-cartoon);
+    box-shadow: 0 4px 0 rgba(0,0,0,0.4);
+}
+
+.brand-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.badge-cartoon {
+    background: var(--accent-orange);
+    color: #000;
+    font-weight: 900;
+    padding: 4px 10px;
+    border-radius: 6px;
+    border: 3px solid #000;
+    box-shadow: 2px 2px 0 #000;
+    font-size: 0.85rem;
+}
+
+.brand-logo h1 {
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 0 #000;
+}
+
+.player-stats-bar {
+    display: flex;
+    gap: 14px;
+}
+
+.stat-pill {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #171e14;
+    padding: 5px 14px;
+    border-radius: 10px;
+    border: 3px solid #000;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.6), 0 3px 0 #000;
+}
+
+.stat-pill .icon {
+    font-size: 1.3rem;
+}
+
+.stat-pill small {
+    display: block;
+    font-size: 0.65rem;
+    color: #a9b8a2;
+    font-weight: bold;
+}
+
+.stat-pill strong {
+    font-size: 1rem;
+    color: var(--gold);
+}
+
+.btn-mini-add {
+    background: var(--accent-green);
+    color: #000;
+    font-weight: 900;
+    border: 2px solid #000;
+    border-radius: 5px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.nav-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-cartoon {
+    padding: 8px 14px;
+    font-weight: 900;
+    color: #fff;
+    border: 3px solid #000;
+    border-radius: 8px;
+    cursor: pointer;
+    text-shadow: 1px 1px 0 #000;
+    box-shadow: 0 4px 0 #000;
+    transition: transform 0.1s;
+}
+
+.btn-cartoon:active {
+    transform: translateY(3px);
+    box-shadow: 0 1px 0 #000;
+}
+
+.btn-green { background: var(--accent-green); }
+.btn-orange { background: var(--accent-orange); }
+.btn-blue { background: var(--accent-blue); }
+.btn-sm { padding: 5px 10px; font-size: 0.8rem; width: 100%; margin-top: 6px; background: #4a5d41; }
+
+/* Main Workspace */
+.workspace {
+    display: grid;
+    grid-template-columns: 330px 1fr;
+    gap: 18px;
+    padding: 15px 20px;
+    flex: 1;
+}
+
+.side-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.panel-card {
+    background: var(--panel-olive);
+    border: 3px solid #000;
+    border-radius: 12px;
+    padding: 12px;
+    box-shadow: 0 5px 0 rgba(0,0,0,0.45);
+}
+
+.panel-card h3 {
+    font-size: 0.95rem;
+    color: var(--gold);
+    margin-bottom: 8px;
+    text-shadow: 1px 1px 0 #000;
+    border-bottom: 2px dashed rgba(255,255,255,0.15);
+    padding-bottom: 5px;
+}
+
+.mode-selector {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.btn-mode {
+    padding: 8px;
+    background: #1b2218;
+    color: #b7c6b0;
+    border: 2px solid #000;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 0.78rem;
+}
+
+.btn-mode.active {
+    background: var(--accent-orange);
+    color: #000;
+    box-shadow: 0 3px 0 #000;
+}
+
+.matchmaking-info {
+    background: #1d261a;
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: 2px solid #000;
+    font-size: 0.83rem;
+}
+
+.opp-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+.win-reward strong {
+    color: #6fffe9;
+}
+
+.hint-text {
+    font-size: 0.78rem;
+    color: #c7d6c0;
+    margin-bottom: 8px;
+    line-height: 1.35;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+
+.skill-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #1c2519;
+    border: 2px solid #000;
+    border-radius: 8px;
+    padding: 8px 6px;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.15s;
+}
+
+.skill-btn.active {
+    background: #6b2d5c;
+    border-color: var(--gold);
+    box-shadow: 0 0 10px var(--gold);
+}
+
+.skill-btn .s-icon { font-size: 1.3rem; }
+.skill-btn .s-name { font-size: 0.74rem; font-weight: bold; margin-top: 3px; }
+.skill-btn .s-count {
+    position: absolute;
+    top: 4px;
+    right: 6px;
+    background: var(--accent-orange);
+    color: #000;
+    font-size: 0.68rem;
+    font-weight: 900;
+    padding: 1px 5px;
+    border-radius: 4px;
+}
+
+.rps-badges {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 0.8rem;
+}
+
+.rps-item {
+    display: flex;
+    justify-content: space-between;
+    background: #1d261a;
+    padding: 6px 8px;
+    border-radius: 6px;
+    border: 1px solid #000;
+}
+
+/* Center iPhone Duo Hardware Stage */
+.device-stage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.device-controls-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #232d1e;
+    border: 3px solid #000;
+    border-radius: 10px;
+    padding: 8px 14px;
+    margin-bottom: 8px;
+}
+
+.device-status-tag {
+    font-weight: 900;
+    color: var(--gold);
+    font-size: 0.9rem;
+}
+
+.turn-indicator {
+    background: var(--accent-blue);
+    color: #000;
+    font-weight: 900;
+    padding: 4px 12px;
+    border-radius: 6px;
+    border: 2px solid #000;
+    font-size: 0.82rem;
+}
+
+/* iPhone Duo Unfolded Frame */
+.iphone-duo-frame {
+    background: #101314;
+    border: 6px solid #353b3c;
+    border-radius: 26px;
+    padding: 10px;
+    box-shadow: 0 14px 30px rgba(0,0,0,0.7), inset 0 0 10px #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.5s ease;
+}
+
+.inner-screen {
+    background: #24301f;
+    border: 3px solid #000;
+    border-radius: 14px;
+    overflow: hidden;
+    position: relative;
+}
+
+.screen-hud {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 12px;
+    background: rgba(0,0,0,0.75);
+    font-size: 0.78rem;
+    border-bottom: 2px solid #000;
+}
+
+.enemy-tag { color: #ff6b6b; font-weight: 900; }
+.ally-tag { color: #4cc9f0; font-weight: 900; }
+
+canvas {
+    display: block;
+    cursor: crosshair;
+}
+
+/* Hinge in the middle of the two screens */
+.duo-hinge {
+    width: 100%;
+    height: 44px;
+    background: linear-gradient(180deg, #1a1d1a 0%, #343a34 50%, #1a1d1a 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 14px;
+    margin: 4px 0;
+    border-radius: 8px;
+    border: 2px solid #000;
+}
+
+.hinge-screw {
+    width: 14px;
+    height: 14px;
+    background: #555;
+    border-radius: 50%;
+    border: 2px solid #111;
+}
+
+.btn-fight-mega {
+    background: linear-gradient(180deg, #ff9900 0%, #e63946 100%);
+    color: #fff;
+    font-weight: 900;
+    font-size: 0.95rem;
+    padding: 6px 24px;
+    border: 3px solid #000;
+    border-radius: 20px;
+    cursor: pointer;
+    text-shadow: 1px 2px 0 #000;
+    box-shadow: 0 4px 0 #000;
+    animation: pulseFight 1.5s infinite;
+}
+
+@keyframes pulseFight {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.04); }
+}
+
+.btn-pass-turn {
+    background: var(--accent-blue);
+    color: #000;
+    font-weight: 900;
+    padding: 6px 16px;
+    border: 3px solid #000;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+/* Folded Outer Screen */
+.iphone-outer-frame {
+    background: #121517;
+    border: 8px solid #495057;
+    border-radius: 30px;
+    padding: 14px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.85);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 560px;
+}
+
+.outer-camera-notch {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+    font-size: 0.8rem;
+    color: var(--gold);
+    font-weight: bold;
+}
+
+.cam-lens {
+    width: 16px;
+    height: 16px;
+    background: radial-gradient(circle, #2998ff 20%, #000 80%);
+    border-radius: 50%;
+    border: 2px solid #666;
+}
+
+.outer-screen-hud {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #1b2218;
+    padding: 6px 12px;
+    border: 2px solid #000;
+    border-radius: 8px;
+    margin-bottom: 6px;
+}
+
+.outer-hp {
+    width: 42%;
+    font-size: 0.75rem;
+    font-weight: 900;
+}
+
+.hp-track {
+    width: 100%;
+    height: 10px;
+    background: #000;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 3px;
+}
+
+.ally .hp-fill { background: #4cc9f0; height: 100%; transition: width 0.25s; }
+.enemy .hp-fill { background: #ff4d6d; height: 100%; transition: width 0.25s; }
+
+.combat-ticker {
+    width: 100%;
+    background: #000;
+    color: var(--gold);
+    font-size: 0.85rem;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 6px;
+    margin-top: 8px;
+    text-align: center;
+    border: 2px solid #333;
+}
+
+.outer-footer-actions {
+    margin-top: 10px;
+}
+
+/* Bottom 10-Item Deployment Dock */
+.deployment-dock {
+    width: 100%;
+    background: var(--panel-olive);
+    border: 3px solid #000;
+    border-radius: 12px;
+    padding: 8px 12px;
+    margin-top: 8px;
+    box-shadow: 0 5px 0 rgba(0,0,0,0.5);
+}
+
+.dock-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: 900;
+    color: var(--gold);
+    margin-bottom: 6px;
+}
+
+.btn-clear-map {
+    background: var(--accent-red);
+    color: #fff;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 2px 8px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.unit-slots-row {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 6px;
+}
+
+.unit-slot {
+    background: #1a2216;
+    border: 3px solid #000;
+    border-radius: 8px;
+    padding: 6px 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    transition: transform 0.12s;
+}
+
+.unit-slot:hover {
+    transform: translateY(-3px);
+}
+
+.unit-slot.selected {
+    background: #384f2f;
+    border-color: var(--gold);
+    box-shadow: 0 0 8px var(--gold);
+}
+
+.unit-slot.deployed {
+    opacity: 0.35;
+    pointer-events: none;
+    filter: grayscale(1);
+}
+
+.unit-slot .u-emoji { font-size: 1.4rem; }
+.unit-slot .u-title { font-size: 0.65rem; font-weight: bold; text-align: center; margin-top: 2px; }
+.unit-slot .u-lvl {
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    font-size: 0.6rem;
+    color: var(--gold);
+    font-weight: 900;
+}
+
+/* Modals */
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.modal-box {
+    background: var(--panel-olive);
+    border: 4px solid #000;
+    border-radius: 16px;
+    width: 90%;
+    max-width: 760px;
+    max-height: 85vh;
+    overflow-y: auto;
+    box-shadow: 0 12px 0 #000;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 18px;
+    background: #1d261a;
+    border-bottom: 3px solid #000;
+}
+
+.btn-close {
+    background: var(--accent-red);
+    color: #fff;
+    border: 2px solid #000;
+    border-radius: 6px;
+    width: 30px;
+    height: 30px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.modal-body {
+    padding: 16px 18px;
+}
+
+.modal-body h3 {
+    color: var(--gold);
+    margin: 12px 0 8px;
+    font-size: 0.95rem;
+}
+
+.store-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
+.store-card {
+    background: #1b2218;
+    border: 3px solid #000;
+    border-radius: 10px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 6px;
+}
+
+.big-icon {
+    font-size: 2rem;
+}
+
+.store-card p {
+    font-size: 0.75rem;
+    color: #b7c6b0;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.paywall-perks {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 14px 0;
+    font-weight: bold;
+    color: var(--gold);
+}
+
+.arch-list {
+    padding-left: 20px;
+    line-height: 1.7;
+    font-size: 0.9rem;
+}
+
+.hidden {
+    display: none !important;
+}

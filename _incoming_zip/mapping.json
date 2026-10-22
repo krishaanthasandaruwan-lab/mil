@@ -1,0 +1,122 @@
+{
+ "direct": {
+  "tank_blue_idle_sw": "079",
+  "tank_blue_fire_ne": "057",
+  "tank_blue_wreck": "014",
+  "tank_red_idle_ne": "067",
+  "tank_red_idle_sw": "081",
+  "tank_red_fire_ne": "087",
+  "tank_red_wreck": "043",
+  "trooper_blue_idle_sw": "008",
+  "trooper_blue_fire_ne": "080",
+  "trooper_red_idle_ne": "016",
+  "mine_blue_armed": "110",
+  "mine_red_idle": "106",
+  "rocket_blue_idle_ne": "105",
+  "rocket_blue_fired_ne": "075",
+  "rocket_red_idle_ne": "051",
+  "bunker_red_intact": "090",
+  "bunker_blue_damaged": "091",
+  "bunker_blue_destroyed": "045",
+  "bunker_red_destroyed": "094",
+  "fx_explosion_sheet": "025",
+  "fx_muzzle_flash": "015",
+  "fx_missile": "012",
+  "fx_shell": "035",
+  "fx_shield_dome": "066",
+  "fx_crater": "054",
+  "fx_laser_bolt": "095",
+  "env_ground_tile": "032",
+  "env_rocks": "101",
+  "env_wreckage": "050",
+  "env_barricade": "119",
+  "bg_menu": "108",
+  "bg_loading": "082",
+  "ui_btn_fold": "002",
+  "ui_btn_fold_pressed": "068",
+  "ui_btn_green": "003",
+  "ui_btn_blue": "001",
+  "ui_btn_red": "027",
+  "ui_btn_gold": "115",
+  "ui_hinge_bar": "109",
+  "ui_header_bar": "071",
+  "ui_panel": "013",
+  "ui_card_blue": "005",
+  "ui_skill_frame": "117",
+  "ui_banner_victory": "028",
+  "ui_banner_defeat": "092",
+  "icon_coin": "058",
+  "icon_gem": "004",
+  "icon_trophy": "007",
+  "icon_star": "084",
+  "icon_star_empty": "060",
+  "icon_skill_hide": "037",
+  "icon_skill_boost": "010",
+  "icon_skill_radar": "023",
+  "icon_skill_shield": "088",
+  "icon_lock": "034",
+  "icon_timer": "021",
+  "icon_sound_on": "052",
+  "icon_sound_off": "064",
+  "icon_settings": "065",
+  "league_bronze": "118",
+  "league_silver": "074",
+  "league_gold": "020",
+  "league_crystal": "076",
+  "league_master": "042",
+  "league_champion": "097",
+  "league_legend": "112",
+  "avatar_player": "083",
+  "avatar_viper": "006",
+  "avatar_blitz": "009",
+  "avatar_kobra": "102",
+  "avatar_boomer": "107",
+  "store_coins_s": "026",
+  "store_coins_m": "061",
+  "store_coins_l": "070",
+  "store_gems_l": "000",
+  "store_full_unlock": "022",
+  "logo": "093"
+ },
+ "derived": {
+  "trooper_blue_idle_ne": [
+   "to_blue",
+   "016"
+  ],
+  "trooper_red_idle_sw": [
+   "to_red",
+   "008"
+  ],
+  "trooper_red_fire_ne": [
+   "to_red",
+   "080"
+  ],
+  "mine_blue_idle": [
+   "to_blue",
+   "106"
+  ],
+  "mine_red_armed": [
+   "to_red",
+   "110"
+  ],
+  "rocket_red_fired_ne": [
+   "to_red",
+   "075"
+  ],
+  "bunker_blue_intact": [
+   "to_blue",
+   "090"
+  ],
+  "bunker_red_damaged": [
+   "to_red",
+   "091"
+  ]
+ },
+ "rejected": {
+  "011": "gold-light tank: the card \"glowing edges gold\" edit was applied to a tank instead of the card",
+  "059": "same mistake as 011",
+  "104": "gold-light bunker: card gold edit applied to the bunker",
+  "041": "wrong style (realistic desert tank, grey background, not an edit of the anchor)",
+  "062": "button-pressed edit failed: random white gadget"
+ }
+}

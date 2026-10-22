@@ -1,0 +1,16 @@
+{
+  "identifier" : "F01D0001",
+  "nonRenewingSubscriptions" : [],
+  "products" : [
+    { "displayPrice" : "4.99", "familyShareable" : true, "internalID" : "F01D1001", "localizations" : [ { "description" : "Unlimited battles, online play, +1000 coins and +50 gems.", "displayName" : "Full Game Unlock", "locale" : "en_US" } ], "productID" : "com.foldwarfare.game.unlock", "referenceName" : "Full Game Unlock", "type" : "NonConsumable" },
+    { "displayPrice" : "0.99", "familyShareable" : false, "internalID" : "F01D1002", "localizations" : [ { "description" : "500 coins for upgrades.", "displayName" : "Coin Pouch", "locale" : "en_US" } ], "productID" : "com.foldwarfare.game.coins.small", "referenceName" : "Coins Small", "type" : "Consumable" },
+    { "displayPrice" : "1.99", "familyShareable" : false, "internalID" : "F01D1003", "localizations" : [ { "description" : "1200 coins for upgrades.", "displayName" : "Coin Crate", "locale" : "en_US" } ], "productID" : "com.foldwarfare.game.coins.medium", "referenceName" : "Coins Medium", "type" : "Consumable" },
+    { "displayPrice" : "4.99", "familyShareable" : false, "internalID" : "F01D1004", "localizations" : [ { "description" : "3500 coins for upgrades.", "displayName" : "Coin Vault", "locale" : "en_US" } ], "productID" : "com.foldwarfare.game.coins.large", "referenceName" : "Coins Large", "type" : "Consumable" },
+    { "displayPrice" : "0.99", "familyShareable" : false, "internalID" : "F01D1005", "localizations" : [ { "description" : "50 gems for chests and cosmetics.", "displayName" : "Gem Handful", "locale" : "en_US" } ], "productID" : "com.foldwarfare.game.gems.small", "referenceName" : "Gems Small", "type" : "Consumable" },
+    { "displayPrice" : "1.99", "familyShareable" : false, "internalID" : "F01D1006", "localizations" : [ { "description" : "130 gems for chests and cosmetics.", "displayName" : "Gem Sack", "locale" : "en_US" } ], "productID" : "com.foldwarfare.game.gems.medium", "referenceName" : "Gems Medium", "type" : "Consumable" },
+    { "displayPrice" : "4.99", "familyShareable" : false, "internalID" : "F01D1007", "localizations" : [ { "description" : "380 gems for chests and cosmetics.", "displayName" : "Gem Chest", "locale" : "en_US" } ], "productID" : "com.foldwarfare.game.gems.large", "referenceName" : "Gems Large", "type" : "Consumable" }
+  ],
+  "settings" : { "_failTransactionsEnabled" : false, "_locale" : "en_US", "_storefront" : "USA" },
+  "subscriptionGroups" : [],
+  "version" : { "major" : 4, "minor" : 0 }
+}

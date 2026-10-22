@@ -1,0 +1,92 @@
+{
+  "title": "Fold Warfare — Privacy Policy",
+  "effectiveDate": "October 22, 2026",
+  "placeholders": {
+    "developer": "[Developer / Studio Name]",
+    "email": "[support email address]"
+  },
+  "intro": "This Privacy Policy explains what information Fold Warfare (\"the game\", \"we\", \"us\") handles when you play, and the choices you have. Fold Warfare does not ask you to create an account with us. Your progress is saved on your device, and online play runs through Apple Game Center.",
+  "sections": [
+    {
+      "heading": "1. Information stored on your device",
+      "paragraphs": [
+        "To save your progress, the game stores the following on your device only: your display name, trophies, league, coins, gems, unit levels, skill inventory, match statistics (wins, losses, best trophies) and your settings (sound, music, vibration).",
+        "This information is kept in your device's local app storage. It is not sent to us or to anyone else."
+      ]
+    },
+    {
+      "heading": "2. Profile photo",
+      "paragraphs": [
+        "You can choose a profile picture from the built-in commander portraits or from your own photos. If you pick your own photo, the game resizes it and saves a small copy on your device only. Your photo is never uploaded, shared or seen by us.",
+        "The game asks for access to your photos only at the moment you choose to set a profile photo. You can switch back to a built-in portrait at any time."
+      ]
+    },
+    {
+      "heading": "3. Information we do not collect",
+      "paragraphs": [
+        "We do not collect your real name, email address, phone number, contacts, location, advertising identifier or device identifiers. We do not run our own servers or user accounts, so we do not hold any copy of your data."
+      ]
+    },
+    {
+      "heading": "4. In-app purchases",
+      "paragraphs": [
+        "Purchases (unlocking the full game or buying coin and gem packs) are processed by the Apple App Store. We never receive your payment card, Apple ID or billing details. The App Store only tells the game that a purchase was completed so the item can be delivered, and Restore Purchases asks the App Store which items you already own.",
+        "Test builds of the game simulate purchases and do not charge any money."
+      ]
+    },
+    {
+      "heading": "5. Analytics and advertising",
+      "paragraphs": [
+        "The current version of the game contains no third-party analytics, tracking or advertising. If this changes in a future version, we will update this policy and ask for your consent where the law requires it."
+      ]
+    },
+    {
+      "heading": "6. Game Center, online matches and leaderboards",
+      "paragraphs": [
+        "Online battles, the global leaderboard and achievements use Apple Game Center. If you sign in to Game Center, Apple shares your Game Center nickname (alias) and a game-specific player identifier with the game, so it can show your opponent's name and your own.",
+        "When you play an online match, the game sends the match state (unit types, positions and levels, bunker positions, skill use and the result) to Apple Game Center so your opponent's device can receive it. When you finish a battle, your trophy total is submitted to the Fold Warfare global leaderboard and any achievements you earned are reported. Other Game Center players can see your nickname, leaderboard score and match moves.",
+        "This data is handled by Apple under Apple's own privacy policy (apple.com/legal/privacy). We do not receive or store it on any server of ours. You can play without Game Center: battles against the computer and face-to-face 2-player work offline, and you can sign out of Game Center in your iPhone's Settings at any time.",
+        "The in-game Top Players screen ranks your trophies against computer-controlled commanders on your device."
+      ]
+    },
+    {
+      "heading": "7. Device permissions",
+      "paragraphs": [
+        "Photos: only when you choose to set a profile photo.",
+        "Fold sensor: on iPhone Duo the game reads whether the phone is open or folded so it can move the battle to the outer screen. This hinge state is used only on your device at that moment and is never stored or sent anywhere.",
+        "Vibration: used for game feedback. You can turn it off in Settings.",
+        "Network: used only for Game Center and App Store features."
+      ]
+    },
+    {
+      "heading": "8. Keeping and deleting your data",
+      "paragraphs": [
+        "Progress stored on your device stays there until you delete it. You can erase all progress at any time from Settings → Reset Progress, and uninstalling the game removes everything it stored. Because we do not hold copies of your data, we cannot restore progress after it is deleted. Game Center scores, achievements and match history are kept by Apple; you can manage or delete them through your Apple Account and Game Center settings."
+      ]
+    },
+    {
+      "heading": "9. Children's privacy",
+      "paragraphs": [
+        "The game does not knowingly collect personal information from anyone, including children under 13. Game Center features follow the restrictions a parent sets in Screen Time (for example, limiting multiplayer games or nickname visibility). Parents can remove the game's local data at any time using Settings → Reset Progress or by uninstalling the game."
+      ]
+    },
+    {
+      "heading": "10. Security",
+      "paragraphs": [
+        "Local game data relies on your device's own security, such as your screen lock and operating system updates. Online match data and purchases are transmitted and protected by Apple's Game Center and App Store services."
+      ]
+    },
+    {
+      "heading": "11. Changes to this policy",
+      "paragraphs": [
+        "We may update this policy when the game changes. The effective date at the top shows when it was last updated. Significant changes will be shown in the game."
+      ]
+    },
+    {
+      "heading": "12. Contact",
+      "paragraphs": [
+        "Questions about this policy or your data? Contact {developer} at {email}."
+      ]
+    }
+  ]
+}

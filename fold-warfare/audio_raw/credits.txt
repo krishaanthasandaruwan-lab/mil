@@ -1,0 +1,16 @@
+Fold Warfare audio sources (keep this file: it is your proof of license)
+
+Pixabay (Pixabay Content License: free for commercial use, no attribution required)
+Paste the Pixabay page link after each file:
+canon.mp3            =
+canon2.mp3           =
+explosion_big.mp3    =
+explosion_big3.mp3   =
+mortar_whistle.mp3.mp3 =
+rocket_launch.mp3    =
+music_menu.mp3       =
+music_menu2.mp3      =
+music_battle.mp3     =
+
+Kenney (CC0 1.0, kenney.nl): everything in audio_raw/kenney/
+Impact Sounds, Sci-Fi Sounds, Interface Sounds and Voiceover Pack

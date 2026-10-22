@@ -1,0 +1,14 @@
+{
+  "project": "Fold Warfare",
+  "instructions": [
+    "Generate images with Nano Banana (Gemini image generation), in order.",
+    "type=text: new generation, attach every file in 'attach' ('concept image' = the user's style reference; other names are files in art_raw/). An empty 'attach' list means attach NOTHING. Paste 'prompt' exactly.",
+    "type=edit: upload the file in 'edit_of' FIRST, then any files in 'attach' as extra references, and paste 'prompt' exactly. Never generate edits from scratch.",
+    "Use the given aspect ratio. Save as PNG with the exact 'file' name.",
+    "Checks (regenerate up to 3 times): flat solid #00FF00 background (or solid black when the prompt says so), one object fully in frame, no text/watermark, correct facing (NE = up-right away from camera, SW = down-left toward camera), blue team lights only, style matches the concept image.",
+    "Sprite sheets: frames must be in an even grid with identical size/position per cell.",
+    "Red team versions are NOT needed - they are made automatically.",
+    "Do EVERY item in the list - previous batches skipped some. When finished, report files created and any that failed."
+  ],
+  "assets": []
+}

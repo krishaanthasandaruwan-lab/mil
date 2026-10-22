@@ -1,0 +1,34 @@
+{
+    "game_title": "FOLD WARFARE: DUO MILITIA",
+    "target_device": "iPhone Duo (Dual Inner Displays + Outer Cover Display)",
+    "release_version": "1.0.0 (Level 1 Base Release + Upgrade Architecture Ready)",
+    "art_style": "Mini Militia Inspired High-Quality Tactical Cartoon UI",
+    "monetization": {
+        "type": "Paid Game with Free Trial",
+        "free_trial_matches": 3,
+        "full_unlock_price_usd": 4.99,
+        "in_app_purchases": [
+            "Coins Top-Up",
+            "Stealth Skills",
+            "Unit Skins",
+            "Bunker Upgrades"
+        ]
+    },
+    "combat_rules": {
+        "fold_mapping": "Player 1 (x, y) maps to Player 2 (x, H - y) on hinge fold",
+        "rps_matrix": {
+            "mortar_soldier": {
+                "beats": "heavy_tank",
+                "multiplier": 2.5
+            },
+            "heavy_tank": {
+                "beats": "proximity_bomb",
+                "multiplier": 2.5
+            },
+            "proximity_bomb": {
+                "beats": "mortar_soldier",
+                "multiplier": 3.0
+            }
+        }
+    }
+}

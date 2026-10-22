@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone Duo - Tactical Fold Warfare (Mini Militia Edition)</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Top Navigation & Status Bar -->
+    <header class="top-bar">
+        <div class="brand-logo">
+            <span class="badge-cartoon">DUO MILITIA</span>
+            <h1>TACTICAL FOLD WARFARE</h1>
+        </div>
+        
+        <div class="player-stats-bar">
+            <div class="stat-pill trophy-pill" title="Clash of Clans Style Trophies">
+                <span class="icon">🏆</span>
+                <div>
+                    <small id="league-name">BRONZE I</small>
+                    <strong id="trophy-count">400</strong>
+                </div>
+            </div>
+            <div class="stat-pill coin-pill">
+                <span class="icon">🪙</span>
+                <div>
+                    <small>COINS</small>
+                    <strong id="coin-count">250</strong>
+                </div>
+                <button class="btn-mini-add" onclick="UI.openModal('store-modal')">+</button>
+            </div>
+            <div class="stat-pill trial-pill" id="trial-badge">
+                <span class="icon">🎟️</span>
+                <div>
+                    <small>TRIAL CHANCES</small>
+                    <strong id="trial-count">3 / 3</strong>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav-actions">
+            <button class="btn-cartoon btn-green" onclick="UI.openModal('upgrade-modal')">⬆️ UPGRADES & SETS</button>
+            <button class="btn-cartoon btn-orange" onclick="UI.openModal('store-modal')">🛒 SKIN & SKILL STORE</button>
+            <button class="btn-cartoon btn-blue" onclick="UI.openModal('arch-modal')">📐 ARCHITECTURE</button>
+        </div>
+    </header>
+
+    <!-- Main Workspace -->
+    <main class="workspace">
+        <!-- Left Control Panel: Mode, Turn, Skills & Deck -->
+        <aside class="side-panel left-panel">
+            <div class="panel-card">
+                <h3>🎮 GAME MODE (ක්‍රීඩා ආකාරය)</h3>
+                <div class="mode-selector">
+                    <button id="mode-online" class="btn-mode active" onclick="Game.setMode('online')">🌐 ONLINE RANKED</button>
+                    <button id="mode-local" class="btn-mode" onclick="Game.setMode('local')">👥 OFFLINE 2-PLAYER</button>
+                </div>
+                <div class="matchmaking-info" id="opponent-card">
+                    <div class="opp-row">
+                        <span>ප්‍රතිවාදියා (Opponent):</span>
+                        <strong id="opp-name">Commander Rex</strong>
+                    </div>
+                    <div class="opp-row">
+                        <span>ප්‍රතිවාදී Trophies:</span>
+                        <strong id="opp-trophies">🏆 480</strong>
+                    </div>
+                    <div class="opp-row win-reward">
+                        <span>ජයග්‍රහණයට ලැබෙන Trophies:</span>
+                        <strong id="win-trophy-preview">+36 🏆</strong>
+                    </div>
+                    <button class="btn-cartoon btn-sm" onclick="Game.RollNewOpponent()">🔄 වෙනත් ප්‍රතිවාදියෙක් සොයන්න</button>
+                </div>
+            </div>
+
+            <div class="panel-card">
+                <h3>🕵️ SKILLS / වරම් (STEALTH & TACTICS)</h3>
+                <p class="hint-text">ඒකකයක් සිතියමේ තැබීමට පෙර හෝ පසුව Skill එකක් තෝරන්න. සැඟවූ (Hidden) බෝම්බ ප්‍රතිවාදියාට නොපෙනේ!</p>
+                <div class="skills-grid">
+                    <button id="skill-hide" class="skill-btn" onclick="Game.toggleSkill('stealth')">
+                        <span class="s-icon">👻</span>
+                        <span class="s-name">Hide Unit (සඟවන්න)</span>
+                        <span class="s-count" id="cnt-stealth">x2</span>
+                    </button>
+                    <button id="skill-radar" class="skill-btn" onclick="Game.useInstantSkill('radar')">
+                        <span class="s-icon">📡</span>
+                        <span class="s-name">Radar Scan (සොයන්න)</span>
+                        <span class="s-count" id="cnt-radar">x1</span>
+                    </button>
+                    <button id="skill-shield" class="skill-btn" onclick="Game.toggleSkill('shield')">
+                        <span class="s-icon">🛡️</span>
+                        <span class="s-name">Bunker Shield</span>
+                        <span class="s-count" id="cnt-shield">x1</span>
+                    </button>
+                    <button id="skill-boost" class="skill-btn" onclick="Game.toggleSkill('boost')">
+                        <span class="s-icon">⚡</span>
+                        <span class="s-name">Power Overcharge</span>
+                        <span class="s-count" id="cnt-boost">x2</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="panel-card rps-guide">
+                <h3>⚔️ COMBAT TRIAD (සටන් තර්කනය)</h3>
+                <div class="rps-badges">
+                    <div class="rps-item"><span>🪖 මෝටාර් සෙබළා</span> ➡️ <span>🚜 ටැංකිය විනාශ කරයි</span></div>
+                    <div class="rps-item"><span>🚜 යුද්ධ ටැංකිය</span> ➡️ <span>💣 බෝම්බය නිෂ්ක්‍රීය කරයි</span></div>
+                    <div class="rps-item"><span>💣 බෝම්බය</span> ➡️ <span>🪖 සෙබළාව විනාශ කරයි</span></div>
+                    <div class="rps-item"><span>🏰 Main Bunker</span> ➡️ <span>විනාශ කළොත් ක්ෂණික ජය!</span></div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Center: iPhone Duo Hardware Simulator (Unfolded Dual Screen <-> Folded Outer Screen) -->
+        <section class="device-stage">
+            <div class="device-controls-bar">
+                <span class="device-status-tag" id="device-state-label">📱 iPhone Duo: ඇතුළත තිර දෙක (UNFOLDED TACTICAL VIEW)</span>
+                <div class="turn-indicator" id="turn-banner">PLAYER 1: ඔබේ ඒකක 10 සිතියමේ ස්ථානගත කරන්න</div>
+            </div>
+
+            <!-- UNFOLDED INNER DUAL SCREENS -->
+            <div id="iphone-duo-unfolded" class="iphone-duo-frame">
+                <!-- Inner Top Screen: Player 2 / Enemy Territory -->
+                <div class="inner-screen top-screen">
+                    <div class="screen-hud top-hud">
+                        <span class="hud-tag enemy-tag">🔴 ENEMY SECTOR (ප්‍රතිවාදී කලාපය)</span>
+                        <span class="bunker-hp-bar">🏰 Bunker HP: <strong id="p2-bunker-hp">1000/1000</strong></span>
+                        <span class="placed-counter">Units: <strong id="p2-unit-count">0/10</strong></span>
+                    </div>
+                    <canvas id="canvas-top" width="520" height="250"></canvas>
+                </div>
+
+                <!-- Center Folding Hinge with FIGHT Button -->
+                <div class="duo-hinge">
+                    <div class="hinge-screw left"></div>
+                    <button id="btn-fold-fight" class="btn-fight-mega" onclick="Game.triggerFoldAndFight()">
+                        🔥 FOLD & FIGHT! (නවා සටන් කරන්න)
+                    </button>
+                    <button id="btn-switch-p2" class="btn-pass-turn hidden" onclick="Game.finishPlayer1Turn()">
+                        ⏭️ PASS TO PLAYER 2
+                    </button>
+                    <div class="hinge-screw right"></div>
+                </div>
+
+                <!-- Inner Bottom Screen: Player 1 Territory -->
+                <div class="inner-screen bottom-screen">
+                    <div class="screen-hud bottom-hud">
+                        <span class="hud-tag ally-tag">🔵 ALLY SECTOR (ඔබේ කලාපය)</span>
+                        <span class="bunker-hp-bar">🏰 Bunker HP: <strong id="p1-bunker-hp">1000/1000</strong></span>
+                        <span class="placed-counter">Units: <strong id="p1-unit-count">0/10</strong></span>
+                    </div>
+                    <canvas id="canvas-bottom" width="520" height="250"></canvas>
+                </div>
+            </div>
+
+            <!-- FOLDED OUTER COVER DISPLAY (Battle Animation Arena) -->
+            <div id="iphone-duo-folded" class="iphone-outer-frame hidden">
+                <div class="outer-camera-notch">
+                    <div class="cam-lens"></div>
+                    <div class="cam-lens"></div>
+                    <span>iPhone Duo Outer Display - LIVE COMBAT</span>
+                </div>
+                <div class="outer-screen-hud">
+                    <div class="outer-hp ally">
+                        <span>🔵 P1 BUNKER</span>
+                        <div class="hp-track"><div id="outer-p1-bar" class="hp-fill" style="width:100%"></div></div>
+                    </div>
+                    <div class="vs-badge">⚔️</div>
+                    <div class="outer-hp enemy">
+                        <span>🔴 P2 BUNKER</span>
+                        <div class="hp-track"><div id="outer-p2-bar" class="hp-fill" style="width:100%"></div></div>
+                    </div>
+                </div>
+                <canvas id="canvas-outer" width="520" height="380"></canvas>
+                <div id="combat-log-ticker" class="combat-ticker">දුරකථනය නැවුණා! ඛණ්ඩාංක සමපාත කරමින් සටන ආරම්භ වේ...</div>
+                <div class="outer-footer-actions">
+                    <button id="btn-unfold-next" class="btn-cartoon btn-green hidden" onclick="Game.unfoldForNextRound()">
+                        📖 UNFOLD PHONE (නැවත දිගහරින්න)
+                    </button>
+                </div>
+            </div>
+
+            <!-- Bottom 10-Item Deployment Dock (යටින් ලැයිස්තුගත කර ඇති අයිටම් 10) -->
+            <div class="deployment-dock">
+                <div class="dock-header">
+                    <span>🎒 DEPLOYMENT DECK (ඔබට හිමි අයිටම් 10 - තෝරා සිතියම මත ක්ලික් කරන්න)</span>
+                    <button class="btn-clear-map" onclick="Game.resetCurrentPlacements()">🗑️ Clear Map</button>
+                </div>
+                <div id="unit-slots-container" class="unit-slots-row">
+                    <!-- Populated dynamically by JS (10 slots) -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- MODAL 1: Store, Coins Top-up & Skins -->
+    <div id="store-modal" class="modal-overlay hidden">
+        <div class="modal-box">
+            <div class="modal-header">
+                <h2>🛒 MILITARY STORE (COINS, SKILLS & SKINS)</h2>
+                <button class="btn-close" onclick="UI.closeModal('store-modal')">✖</button>
+            </div>
+            <div class="modal-body">
+                <h3>🪙 1. COIN TOP-UP (සැබෑ මුදලින් Coins මිලදී ගැනීම)</h3>
+                <div class="store-grid">
+                    <div class="store-card">
+                        <div class="big-icon">🪙 500</div>
+                        <h4>Recruit Pack</h4>
+                        <p>මූලික Skills සහ Upgrades සඳහා</p>
+                        <button class="btn-cartoon btn-green" onclick="Store.buyCoins(500, '$0.99')">Buy $0.99</button>
+                    </div>
+                    <div class="store-card">
+                        <div class="big-icon">💰 2,000</div>
+                        <h4>Commander Chest</h4>
+                        <p>+25% Bonus Coins</p>
+                        <button class="btn-cartoon btn-orange" onclick="Store.buyCoins(2000, '$2.99')">Buy $2.99</button>
+                    </div>
+                    <div class="store-card">
+                        <div class="big-icon">💎 5,000</div>
+                        <h4>General Vault</h4>
+                        <p>සියලුම Skins සහ Upgrades සඳහා</p>
+                        <button class="btn-cartoon btn-blue" onclick="Store.buyCoins(5000, '$4.99')">Buy $4.99</button>
+                    </div>
+                </div>
+
+                <h3>🕵️ 2. BUY TACTICAL SKILLS (Coins මගින් වරම් මිලදී ගන්න)</h3>
+                <div class="store-grid">
+                    <div class="store-card">
+                        <div class="big-icon">👻</div>
+                        <h4>Hide / Stealth Skill (x3)</h4>
+                        <p>බෝම්බ හෝ ඒකක ප්‍රතිවාදියාට නොපෙනෙන සේ සැඟවීමට</p>
+                        <button class="btn-cartoon btn-green" onclick="Store.buySkill('stealth', 3, 120)">🪙 120 Coins</button>
+                    </div>
+                    <div class="store-card">
+                        <div class="big-icon">📡</div>
+                        <h4>Radar Scanner (x2)</h4>
+                        <p>ප්‍රතිවාදියා සඟවා ඇති බෝම්බ හෙළිදරව් කරගැනීමට</p>
+                        <button class="btn-cartoon btn-green" onclick="Store.buySkill('radar', 2, 150)">🪙 150 Coins</button>
+                    </div>
+                    <div class="store-card">
+                        <div class="big-icon">🛡️</div>
+                        <h4>Bunker Shield (x2)</h4>
+                        <p>ඔබේ ප්‍රධාන බංකරයට අමතර ආරක්ෂාවක්</p>
+                        <button class="btn-cartoon btn-green" onclick="Store.buySkill('shield', 2, 180)">🪙 180 Coins</button>
+                    </div>
+                </div>
+
+                <h3>🎨 3. MINI MILITIA CARTOON SKIN STORE</h3>
+                <div class="store-grid" id="skins-store-grid">
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL 2: Unit Upgrades & Deck Sets -->
+    <div id="upgrade-modal" class="modal-overlay hidden">
+        <div class="modal-box">
+            <div class="modal-header">
+                <h2>⬆️ CLASH OF CLANS STYLE UNIT UPGRADES & SETS</h2>
+                <button class="btn-close" onclick="UI.closeModal('upgrade-modal')">✖</button>
+            </div>
+            <div class="modal-body">
+                <p class="hint-text">Release 1 හි මූලිකව Level 1 ලෙස ආරම්භ වේ. ඔබේ Coins භාවිතා කර ඒකකවල HP, Attack Power සහ Attack Range වැඩිදියුණු (Level Up) කළ හැකිය.</p>
+                <div class="store-grid" id="upgrade-cards-grid">
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL 3: 3-Trial Expired Paywall -->
+    <div id="paywall-modal" class="modal-overlay hidden">
+        <div class="modal-box paywall-box">
+            <div class="modal-header">
+                <h2>🔒 FREE TRIAL ENDED (නොමිලේ දුන් අවස්ථා 3 අවසන්!)</h2>
+            </div>
+            <div class="modal-body center-text">
+                <div class="big-icon">🎖️</div>
+                <h3>Unlock Full iPhone Duo Tactical Warfare</h3>
+                <p>ඔබ නොමිලේ ලබා දුන් අත්හදා බැලීමේ තරග 3 (3 Free Trial Chances) ක්‍රීඩා කර අවසන් කර ඇත. අසීමිත Online Ranked තරග, සියලුම ඒකක 10 සහ Upgrades ලබා ගැනීමට සම්පූර්ණ ක්‍රීඩාව Unlock කරන්න!</p>
+                <div class="paywall-perks">
+                    <span>✅ Unlimited Matches</span>
+                    <span>✅ +1,000 Bonus Coins</span>
+                    <span>✅ +3 Stealth Skills</span>
+                </div>
+                <button class="btn-fight-mega" onclick="Store.unlockFullGame()">🔓 UNLOCK FULL GAME ($4.99)</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL 4: System Architecture Overview -->
+    <div id="arch-modal" class="modal-overlay hidden">
+        <div class="modal-box">
+            <div class="modal-header">
+                <h2>📐 GAME ARCHITECTURE BLUEPRINT</h2>
+                <button class="btn-close" onclick="UI.closeModal('arch-modal')">✖</button>
+            </div>
+            <div class="modal-body">
+                <ul class="arch-list">
+                    <li><strong>Dual-Screen Coordinate Mirroring:</strong> දුරකථනය නැවූ විට Player 1 ගේ <code>(x, y)</code> ලක්ෂ්‍යය Player 2 ගේ <code>(x, Height - y)</code> මතට පතිත වේ.</li>
+                    <li><strong>Pre-Created + Real-Time Combat Animations:</strong> ටැංකි වෙඩි තැබීම්, මෝටාර් ප්‍රහාර, සහ බිම් බෝම්බ පිපිරීම් පිටත තිරයේ (Outer Display) සජීවීව ධාවනය වේ.</li>
+                    <li><strong>Range & Zone Targeting:</strong> එක ස්ථානයක තැබූ ඒකකයකට තම <code>attackRange</code> කලාපය තුළ ඇති සතුරු ඒකක සහ Main Bunker එකට පහර දිය හැකිය.</li>
+                    <li><strong>ELO Trophy Ranking:</strong> ප්‍රතිවාදියාගේ Trophies වැඩි නම් ජයග්‍රහණයේදී වැඩි Trophies ප්‍රමාණයක් හිමිවේ.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/config.js"></script>
+    <script src="js/audio.js"></script>
+    <script src="js/architecture.js"></script>
+    <script src="js/combat_engine.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

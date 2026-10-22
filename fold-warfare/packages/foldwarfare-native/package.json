@@ -1,0 +1,14 @@
+{
+  "name": "foldwarfare-native",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Fold Warfare native iOS bridge: Game Center (sign-in, leaderboards, achievements, turn-based matches) and StoreKit 2 purchases.",
+  "license": "UNLICENSED",
+  "files": ["ios/", "Package.swift"],
+  "capacitor": {
+    "ios": { "src": "ios" }
+  },
+  "peerDependencies": {
+    "@capacitor/core": "^8.0.0"
+  }
+}

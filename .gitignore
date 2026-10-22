@@ -1,0 +1,21 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Dependencies
+node_modules/
+
+# Build artifacts
+dist/
+
+# Archives & Temporary Zips
+*.zip
+*.tar.gz
+
+# Large media files exceeding GitHub's 100MB file size limit
+*.mov
+*.MOV
+*.mp4
+

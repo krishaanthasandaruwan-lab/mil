@@ -1,0 +1,599 @@
+{
+ "app_icon": {
+  "h": 1024,
+  "path": "assets/app_icon.png",
+  "w": 1024
+ },
+ "avatar_blitz": {
+  "h": 256,
+  "path": "assets/avatar_blitz.png",
+  "w": 256
+ },
+ "avatar_boomer": {
+  "h": 256,
+  "path": "assets/avatar_boomer.png",
+  "w": 256
+ },
+ "avatar_bruno": {
+  "h": 256,
+  "path": "assets/avatar_bruno.png",
+  "w": 256
+ },
+ "avatar_fizz": {
+  "h": 256,
+  "path": "assets/avatar_fizz.png",
+  "w": 256
+ },
+ "avatar_kobra": {
+  "h": 256,
+  "path": "assets/avatar_kobra.png",
+  "w": 256
+ },
+ "avatar_mango": {
+  "h": 256,
+  "path": "assets/avatar_mango.png",
+  "w": 256
+ },
+ "avatar_player": {
+  "h": 256,
+  "path": "assets/avatar_player.png",
+  "w": 256
+ },
+ "avatar_viper": {
+  "h": 256,
+  "path": "assets/avatar_viper.png",
+  "w": 256
+ },
+ "bg_loading": {
+  "h": 1920,
+  "path": "assets/bg_loading.png",
+  "w": 1080
+ },
+ "bg_menu": {
+  "h": 1920,
+  "path": "assets/bg_menu.png",
+  "w": 1080
+ },
+ "bunker_blue_damaged": {
+  "h": 400,
+  "path": "assets/bunker_blue_damaged.png",
+  "w": 395
+ },
+ "bunker_blue_destroyed": {
+  "h": 400,
+  "path": "assets/bunker_blue_destroyed.png",
+  "w": 400
+ },
+ "bunker_blue_firing": {
+  "h": 379,
+  "path": "assets/bunker_blue_firing.png",
+  "w": 400
+ },
+ "bunker_blue_intact": {
+  "h": 376,
+  "path": "assets/bunker_blue_intact.png",
+  "w": 400
+ },
+ "bunker_red_damaged": {
+  "h": 400,
+  "path": "assets/bunker_red_damaged.png",
+  "w": 395
+ },
+ "bunker_red_destroyed": {
+  "h": 398,
+  "path": "assets/bunker_red_destroyed.png",
+  "w": 400
+ },
+ "bunker_red_firing": {
+  "h": 379,
+  "path": "assets/bunker_red_firing.png",
+  "w": 400
+ },
+ "bunker_red_intact": {
+  "h": 376,
+  "path": "assets/bunker_red_intact.png",
+  "w": 400
+ },
+ "env_barricade": {
+  "h": 256,
+  "path": "assets/env_barricade.png",
+  "w": 253
+ },
+ "env_ground_tile": {
+  "h": 1024,
+  "path": "assets/env_ground_tile.png",
+  "w": 1024
+ },
+ "env_rocks": {
+  "h": 234,
+  "path": "assets/env_rocks.png",
+  "w": 256
+ },
+ "env_wreckage": {
+  "h": 197,
+  "path": "assets/env_wreckage.png",
+  "w": 256
+ },
+ "fx_coin_spin_sheet": {
+  "grid": [
+   4,
+   4
+  ],
+  "h": 1024,
+  "path": "assets/fx_coin_spin_sheet.png",
+  "w": 1024
+ },
+ "fx_crater": {
+  "h": 256,
+  "path": "assets/fx_crater.png",
+  "w": 256
+ },
+ "fx_deploy_sheet": {
+  "grid": [
+   4,
+   4
+  ],
+  "h": 1024,
+  "path": "assets/fx_deploy_sheet.png",
+  "w": 1024
+ },
+ "fx_explosion_sheet": {
+  "grid": [
+   4,
+   4
+  ],
+  "h": 1024,
+  "path": "assets/fx_explosion_sheet.png",
+  "w": 1024
+ },
+ "fx_fire_loop_sheet": {
+  "grid": [
+   4,
+   4
+  ],
+  "h": 1024,
+  "path": "assets/fx_fire_loop_sheet.png",
+  "w": 1024
+ },
+ "fx_laser_bolt": {
+  "h": 128,
+  "path": "assets/fx_laser_bolt.png",
+  "w": 63
+ },
+ "fx_missile": {
+  "h": 160,
+  "path": "assets/fx_missile.png",
+  "w": 56
+ },
+ "fx_muzzle_flash": {
+  "h": 242,
+  "path": "assets/fx_muzzle_flash.png",
+  "w": 256
+ },
+ "fx_shell": {
+  "h": 93,
+  "path": "assets/fx_shell.png",
+  "w": 96
+ },
+ "fx_shield_dome": {
+  "h": 402,
+  "path": "assets/fx_shield_dome.png",
+  "w": 512
+ },
+ "fx_shield_hit_sheet": {
+  "grid": [
+   4,
+   4
+  ],
+  "h": 1024,
+  "path": "assets/fx_shield_hit_sheet.png",
+  "w": 1024
+ },
+ "fx_shockwave_sheet": {
+  "grid": [
+   4,
+   4
+  ],
+  "h": 1024,
+  "path": "assets/fx_shockwave_sheet.png",
+  "w": 1024
+ },
+ "fx_smoke_sheet": {
+  "grid": [
+   4,
+   4
+  ],
+  "h": 1024,
+  "path": "assets/fx_smoke_sheet.png",
+  "w": 1024
+ },
+ "fx_spark_sheet": {
+  "grid": [
+   4,
+   4
+  ],
+  "h": 1024,
+  "path": "assets/fx_spark_sheet.png",
+  "w": 1024
+ },
+ "icon_coin": {
+  "h": 192,
+  "path": "assets/icon_coin.png",
+  "w": 192
+ },
+ "icon_gem": {
+  "h": 192,
+  "path": "assets/icon_gem.png",
+  "w": 146
+ },
+ "icon_lock": {
+  "h": 192,
+  "path": "assets/icon_lock.png",
+  "w": 149
+ },
+ "icon_settings": {
+  "h": 192,
+  "path": "assets/icon_settings.png",
+  "w": 191
+ },
+ "icon_skill_boost": {
+  "h": 192,
+  "path": "assets/icon_skill_boost.png",
+  "w": 137
+ },
+ "icon_skill_foldpreview": {
+  "h": 192,
+  "path": "assets/icon_skill_foldpreview.png",
+  "w": 191
+ },
+ "icon_skill_hide": {
+  "h": 192,
+  "path": "assets/icon_skill_hide.png",
+  "w": 185
+ },
+ "icon_skill_radar": {
+  "h": 192,
+  "path": "assets/icon_skill_radar.png",
+  "w": 192
+ },
+ "icon_skill_shield": {
+  "h": 192,
+  "path": "assets/icon_skill_shield.png",
+  "w": 183
+ },
+ "icon_sound_off": {
+  "h": 182,
+  "path": "assets/icon_sound_off.png",
+  "w": 192
+ },
+ "icon_sound_on": {
+  "h": 154,
+  "path": "assets/icon_sound_on.png",
+  "w": 192
+ },
+ "icon_star": {
+  "h": 192,
+  "path": "assets/icon_star.png",
+  "w": 191
+ },
+ "icon_star_empty": {
+  "h": 191,
+  "path": "assets/icon_star_empty.png",
+  "w": 192
+ },
+ "icon_timer": {
+  "h": 192,
+  "path": "assets/icon_timer.png",
+  "w": 184
+ },
+ "icon_trophy": {
+  "h": 192,
+  "path": "assets/icon_trophy.png",
+  "w": 176
+ },
+ "league_bronze": {
+  "h": 203,
+  "path": "assets/league_bronze.png",
+  "w": 256
+ },
+ "league_champion": {
+  "h": 240,
+  "path": "assets/league_champion.png",
+  "w": 256
+ },
+ "league_crystal": {
+  "h": 247,
+  "path": "assets/league_crystal.png",
+  "w": 256
+ },
+ "league_gold": {
+  "h": 241,
+  "path": "assets/league_gold.png",
+  "w": 256
+ },
+ "league_legend": {
+  "h": 226,
+  "path": "assets/league_legend.png",
+  "w": 256
+ },
+ "league_master": {
+  "h": 238,
+  "path": "assets/league_master.png",
+  "w": 256
+ },
+ "league_silver": {
+  "h": 220,
+  "path": "assets/league_silver.png",
+  "w": 256
+ },
+ "logo": {
+  "h": 471,
+  "path": "assets/logo.png",
+  "w": 1024
+ },
+ "mine_blue_armed": {
+  "h": 253,
+  "path": "assets/mine_blue_armed.png",
+  "w": 260
+ },
+ "mine_blue_idle": {
+  "h": 256,
+  "path": "assets/mine_blue_idle.png",
+  "w": 260
+ },
+ "mine_red_armed": {
+  "h": 253,
+  "path": "assets/mine_red_armed.png",
+  "w": 260
+ },
+ "mine_red_idle": {
+  "h": 256,
+  "path": "assets/mine_red_idle.png",
+  "w": 260
+ },
+ "rocket_blue_fired_ne": {
+  "h": 285,
+  "path": "assets/rocket_blue_fired_ne.png",
+  "w": 320
+ },
+ "rocket_blue_idle_ne": {
+  "h": 282,
+  "path": "assets/rocket_blue_idle_ne.png",
+  "w": 320
+ },
+ "rocket_blue_wreck": {
+  "h": 320,
+  "path": "assets/rocket_blue_wreck.png",
+  "w": 312
+ },
+ "rocket_red_fired_ne": {
+  "h": 285,
+  "path": "assets/rocket_red_fired_ne.png",
+  "w": 320
+ },
+ "rocket_red_idle_ne": {
+  "h": 282,
+  "path": "assets/rocket_red_idle_ne.png",
+  "w": 320
+ },
+ "rocket_red_wreck": {
+  "h": 320,
+  "path": "assets/rocket_red_wreck.png",
+  "w": 312
+ },
+ "store_chest_closed": {
+  "h": 384,
+  "path": "assets/store_chest_closed.png",
+  "w": 365
+ },
+ "store_chest_open": {
+  "h": 368,
+  "path": "assets/store_chest_open.png",
+  "w": 384
+ },
+ "store_coins_l": {
+  "h": 373,
+  "path": "assets/store_coins_l.png",
+  "w": 384
+ },
+ "store_coins_m": {
+  "h": 384,
+  "path": "assets/store_coins_m.png",
+  "w": 374
+ },
+ "store_coins_s": {
+  "h": 384,
+  "path": "assets/store_coins_s.png",
+  "w": 308
+ },
+ "store_full_unlock": {
+  "h": 366,
+  "path": "assets/store_full_unlock.png",
+  "w": 384
+ },
+ "store_gems_l": {
+  "h": 384,
+  "path": "assets/store_gems_l.png",
+  "w": 361
+ },
+ "store_gems_m": {
+  "h": 326,
+  "path": "assets/store_gems_m.png",
+  "w": 384
+ },
+ "store_gems_s": {
+  "h": 300,
+  "path": "assets/store_gems_s.png",
+  "w": 384
+ },
+ "tank_blue_fire_ne": {
+  "h": 293,
+  "path": "assets/tank_blue_fire_ne.png",
+  "w": 320
+ },
+ "tank_blue_fire_sw": {
+  "h": 229,
+  "path": "assets/tank_blue_fire_sw.png",
+  "w": 320
+ },
+ "tank_blue_idle_ne": {
+  "h": 235,
+  "path": "assets/tank_blue_idle_ne.png",
+  "w": 320
+ },
+ "tank_blue_idle_sw": {
+  "h": 238,
+  "path": "assets/tank_blue_idle_sw.png",
+  "w": 320
+ },
+ "tank_blue_wreck": {
+  "h": 318,
+  "path": "assets/tank_blue_wreck.png",
+  "w": 320
+ },
+ "tank_red_fire_ne": {
+  "h": 293,
+  "path": "assets/tank_red_fire_ne.png",
+  "w": 320
+ },
+ "tank_red_fire_sw": {
+  "h": 229,
+  "path": "assets/tank_red_fire_sw.png",
+  "w": 320
+ },
+ "tank_red_idle_ne": {
+  "h": 244,
+  "path": "assets/tank_red_idle_ne.png",
+  "w": 320
+ },
+ "tank_red_idle_sw": {
+  "h": 238,
+  "path": "assets/tank_red_idle_sw.png",
+  "w": 320
+ },
+ "tank_red_wreck": {
+  "h": 318,
+  "path": "assets/tank_red_wreck.png",
+  "w": 320
+ },
+ "trooper_blue_dead": {
+  "h": 221,
+  "path": "assets/trooper_blue_dead.png",
+  "w": 300
+ },
+ "trooper_blue_fire_ne": {
+  "h": 300,
+  "path": "assets/trooper_blue_fire_ne.png",
+  "w": 225
+ },
+ "trooper_blue_fire_sw": {
+  "h": 300,
+  "path": "assets/trooper_blue_fire_sw.png",
+  "w": 239
+ },
+ "trooper_blue_idle_ne": {
+  "h": 300,
+  "path": "assets/trooper_blue_idle_ne.png",
+  "w": 211
+ },
+ "trooper_blue_idle_sw": {
+  "h": 300,
+  "path": "assets/trooper_blue_idle_sw.png",
+  "w": 204
+ },
+ "trooper_red_dead": {
+  "h": 221,
+  "path": "assets/trooper_red_dead.png",
+  "w": 300
+ },
+ "trooper_red_fire_ne": {
+  "h": 300,
+  "path": "assets/trooper_red_fire_ne.png",
+  "w": 225
+ },
+ "trooper_red_fire_sw": {
+  "h": 300,
+  "path": "assets/trooper_red_fire_sw.png",
+  "w": 239
+ },
+ "trooper_red_idle_ne": {
+  "h": 300,
+  "path": "assets/trooper_red_idle_ne.png",
+  "w": 211
+ },
+ "trooper_red_idle_sw": {
+  "h": 300,
+  "path": "assets/trooper_red_idle_sw.png",
+  "w": 204
+ },
+ "ui_banner_defeat": {
+  "h": 345,
+  "path": "assets/ui_banner_defeat.png",
+  "w": 1024
+ },
+ "ui_banner_victory": {
+  "h": 475,
+  "path": "assets/ui_banner_victory.png",
+  "w": 1024
+ },
+ "ui_btn_blue": {
+  "h": 375,
+  "path": "assets/ui_btn_blue.png",
+  "w": 900
+ },
+ "ui_btn_fold": {
+  "h": 315,
+  "path": "assets/ui_btn_fold.png",
+  "w": 900
+ },
+ "ui_btn_fold_pressed": {
+  "h": 375,
+  "path": "assets/ui_btn_fold_pressed.png",
+  "w": 900
+ },
+ "ui_btn_gold": {
+  "h": 375,
+  "path": "assets/ui_btn_gold.png",
+  "w": 900
+ },
+ "ui_btn_green": {
+  "h": 374,
+  "path": "assets/ui_btn_green.png",
+  "w": 900
+ },
+ "ui_btn_red": {
+  "h": 375,
+  "path": "assets/ui_btn_red.png",
+  "w": 900
+ },
+ "ui_card_blue": {
+  "h": 384,
+  "path": "assets/ui_card_blue.png",
+  "w": 255
+ },
+ "ui_card_gold": {
+  "h": 384,
+  "path": "assets/ui_card_gold.png",
+  "w": 255
+ },
+ "ui_header_bar": {
+  "h": 177,
+  "path": "assets/ui_header_bar.png",
+  "w": 1024
+ },
+ "ui_hinge_bar": {
+  "h": 200,
+  "path": "assets/ui_hinge_bar.png",
+  "w": 1376
+ },
+ "ui_panel": {
+  "h": 900,
+  "path": "assets/ui_panel.png",
+  "w": 675
+ },
+ "ui_skill_frame": {
+  "h": 192,
+  "path": "assets/ui_skill_frame.png",
+  "w": 192
+ }
+}

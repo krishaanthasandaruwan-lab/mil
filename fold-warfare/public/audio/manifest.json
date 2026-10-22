@@ -1,0 +1,197 @@
+{
+  "sfx": {
+    "cannon": {
+      "volume": 0.85,
+      "files": [
+        "sfx/cannon_1.mp3",
+        "sfx/cannon_2.mp3"
+      ]
+    },
+    "mortar_fire": {
+      "volume": 0.6,
+      "files": [
+        "sfx/mortar_fire_1.mp3",
+        "sfx/mortar_fire_2.mp3"
+      ]
+    },
+    "mortar_whistle": {
+      "volume": 0.45,
+      "files": [
+        "sfx/mortar_whistle_1.mp3",
+        "sfx/mortar_whistle_2.mp3"
+      ]
+    },
+    "rocket": {
+      "volume": 0.7,
+      "files": [
+        "sfx/rocket_1.mp3",
+        "sfx/rocket_2.mp3"
+      ]
+    },
+    "turret": {
+      "volume": 0.5,
+      "files": [
+        "sfx/turret_1.mp3"
+      ]
+    },
+    "explosion_big": {
+      "volume": 1.0,
+      "files": [
+        "sfx/explosion_big_1.mp3",
+        "sfx/explosion_big_2.mp3"
+      ]
+    },
+    "explosion_medium": {
+      "volume": 0.8,
+      "files": [
+        "sfx/explosion_medium_1.mp3",
+        "sfx/explosion_medium_2.mp3",
+        "sfx/explosion_medium_3.mp3",
+        "sfx/explosion_medium_4.mp3"
+      ]
+    },
+    "explosion_small": {
+      "volume": 0.7,
+      "files": [
+        "sfx/explosion_small_1.mp3",
+        "sfx/explosion_small_2.mp3",
+        "sfx/explosion_small_3.mp3"
+      ]
+    },
+    "crash": {
+      "volume": 0.8,
+      "files": [
+        "sfx/crash_1.mp3",
+        "sfx/crash_2.mp3",
+        "sfx/crash_3.mp3"
+      ]
+    },
+    "slam": {
+      "volume": 1.0,
+      "files": [
+        "sfx/slam_1.mp3"
+      ]
+    },
+    "place": {
+      "volume": 0.55,
+      "files": [
+        "sfx/place_1.mp3",
+        "sfx/place_2.mp3",
+        "sfx/place_3.mp3"
+      ]
+    },
+    "shield_up": {
+      "volume": 0.55,
+      "files": [
+        "sfx/shield_up_1.mp3",
+        "sfx/shield_up_2.mp3"
+      ]
+    },
+    "shield_break": {
+      "volume": 0.6,
+      "files": [
+        "sfx/shield_break_1.mp3",
+        "sfx/shield_break_2.mp3",
+        "sfx/shield_break_3.mp3"
+      ]
+    },
+    "click": {
+      "volume": 0.4,
+      "files": [
+        "sfx/click_1.mp3",
+        "sfx/click_2.mp3",
+        "sfx/click_3.mp3"
+      ]
+    },
+    "select": {
+      "volume": 0.45,
+      "files": [
+        "sfx/select_1.mp3",
+        "sfx/select_2.mp3"
+      ]
+    },
+    "invalid": {
+      "volume": 0.45,
+      "files": [
+        "sfx/invalid_1.mp3",
+        "sfx/invalid_2.mp3"
+      ]
+    },
+    "tick": {
+      "volume": 0.35,
+      "files": [
+        "sfx/tick_1.mp3",
+        "sfx/tick_2.mp3"
+      ]
+    },
+    "turn_start": {
+      "volume": 0.5,
+      "files": [
+        "sfx/turn_start_1.mp3",
+        "sfx/turn_start_2.mp3"
+      ]
+    },
+    "voice_fire_in_the_hole": {
+      "volume": 0.9,
+      "files": [
+        "sfx/voice_fire_in_the_hole_1.mp3"
+      ]
+    },
+    "voice_target_destroyed": {
+      "volume": 0.9,
+      "files": [
+        "sfx/voice_target_destroyed_1.mp3"
+      ]
+    },
+    "voice_mission_completed": {
+      "volume": 0.9,
+      "files": [
+        "sfx/voice_mission_completed_1.mp3"
+      ]
+    },
+    "voice_mission_failed": {
+      "volume": 0.9,
+      "files": [
+        "sfx/voice_mission_failed_1.mp3"
+      ]
+    },
+    "voice_its_a_tie": {
+      "volume": 0.9,
+      "files": [
+        "sfx/voice_its_a_tie_1.mp3"
+      ]
+    },
+    "voice_ready": {
+      "volume": 0.85,
+      "files": [
+        "sfx/voice_ready_1.mp3"
+      ]
+    },
+    "voice_go": {
+      "volume": 0.85,
+      "files": [
+        "sfx/voice_go_1.mp3"
+      ]
+    },
+    "voice_final_round": {
+      "volume": 0.85,
+      "files": [
+        "sfx/voice_final_round_1.mp3"
+      ]
+    }
+  },
+  "music": {
+    "menu": {
+      "volume": 0.32,
+      "file": "music/menu.mp3"
+    },
+    "placement": {
+      "volume": 0.3,
+      "file": "music/placement.mp3"
+    },
+    "battle": {
+      "volume": 0.34,
+      "file": "music/battle.mp3"
+    }
+  }
+}

@@ -1,0 +1,1555 @@
+[
+  {
+    "order": 1,
+    "file": "art_raw/tank_blue_idle_ne.png",
+    "title": "Tank - BLUE idle, facing NE (up-right)",
+    "tier": 1,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "1:1",
+    "done": true,
+    "prompt": "A heavy armored sci-fi battle tank: wide caterpillar treads, thick angular armor plates, a large turret with one long main cannon, small antennas and a sensor pod.\n\nArt style: match the attached reference image exactly - dark sci-fi military, highly detailed 3D game render, premium mobile strategy game quality, realistic gunmetal and armor materials, dramatic rim lighting, glowing team-colored accent lights.\nCamera: 3/4 top-down view looking down at about 60 degrees with slight perspective - the same camera angle as the reference image.\nTeam color: electric blue (#2E9BFF) glowing lights, visor and accent stripes.\nFacing: the unit faces diagonally UP-RIGHT, away from the camera - we see its back and left side, exactly like the reference tank.\nComposition: exactly ONE object, centered, the entire object fully visible inside the frame with about 10% empty margin on every side. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 2,
+    "file": "art_raw/tank_blue_idle_sw.png",
+    "title": "Tank - BLUE idle, facing SW (down-left)",
+    "tier": 1,
+    "type": "edit",
+    "edit_of": "art_raw/tank_blue_idle_ne.png",
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Edit this image. Show the SAME unit, identical design, details, colors, size and the flat green background, but turned around on the ground so it now faces diagonally DOWN-LEFT, toward the camera - we see its front and right side. Same 3/4 top-down camera height."
+  },
+  {
+    "order": 3,
+    "file": "art_raw/tank_blue_fire_ne.png",
+    "title": "Tank - BLUE firing, facing NE",
+    "tier": 1,
+    "type": "edit",
+    "edit_of": "art_raw/tank_blue_idle_ne.png",
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Edit this image. Keep the exact same unit, design, colors, size, position, camera angle, lighting and the flat green background. Change only this: the tank is FIRING its cannon right now - a bright muzzle flash and a burst of smoke at the end of the barrel, slight recoil."
+  },
+  {
+    "order": 4,
+    "file": "art_raw/tank_blue_fire_sw.png",
+    "title": "Tank - BLUE firing, facing SW",
+    "tier": 1,
+    "type": "edit",
+    "edit_of": "art_raw/tank_blue_idle_sw.png",
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Edit this image. Keep the exact same unit, design, colors, size, position, camera angle, lighting and the flat green background. Change only this: the tank is FIRING its cannon right now - a bright muzzle flash and a burst of smoke at the end of the barrel, slight recoil."
+  },
+  {
+    "order": 5,
+    "file": "art_raw/tank_blue_wreck.png",
+    "title": "Tank - BLUE destroyed wreck",
+    "tier": 1,
+    "type": "edit",
+    "edit_of": "art_raw/tank_blue_idle_ne.png",
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Edit this image. Keep the exact same unit, design, colors, size, position, camera angle, lighting and the flat green background. Change only this: the tank is DESTROYED - burnt black armor, broken treads, turret knocked crooked, small fires and smoke rising, all lights off."
+  },
+  {
+    "order": 6,
+    "file": "art_raw/tank_red_idle_ne.png",
+    "title": "Tank - RED idle, facing NE (up-right)",
+    "tier": 1,
+    "type": "edit",
+    "edit_of": "art_raw/tank_blue_idle_ne.png",
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Edit this image. Keep EVERYTHING exactly the same - design, pose, angle, size, position, lighting, damage, effects and the flat green background. Change only the team color: every blue glowing light, visor and accent stripe becomes bright red (#FF3B3B)."
+  },
+  {
+    "order": 7,
+    "file": "art_raw/tank_red_idle_sw.png",
+    "title": "Tank - RED idle, facing SW (down-left)",
+    "tier": 1,
+    "type": "edit",
+    "edit_of": "art_raw/tank_blue_idle_sw.png",
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Edit this image. Keep EVERYTHING exactly the same - design, pose, angle, size, position, lighting, damage, effects and the flat green background. Change only the team color: every blue glowing light, visor and accent stripe becomes bright red (#FF3B3B)."
+  },
+  {
+    "order": 8,
+    "file": "art_raw/tank_red_fire_ne.png",
+    "title": "Tank - RED firing, facing NE",
+    "tier": 1,
+    "type": "edit",
+    "edit_of": "art_raw/tank_blue_fire_ne.png",
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Edit this image. Keep EVERYTHING exactly the same - design, pose, angle, size, position, lighting, damage, effects and the flat green background. Change only the team color: every blue glowing light, visor and accent stripe becomes bright red (#FF3B3B)."
+  },
+  {
+    "order": 9,
+    "file": "art_raw/tank_red_fire_sw.png",
+    "title": "Tank - RED firing, facing SW",
+    "tier": 1,
+    "type": "edit",
+    "edit_of": "art_raw/tank_blue_fire_sw.png",
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Edit this image. Keep EVERYTHING exactly the same - design, pose, angle, size, position, lighting, damage, effects and the flat green background. Change only the team color: every blue glowing light, visor and accent stripe becomes bright red (#FF3B3B)."
+  },
+  {
+    "order": 10,
+    "file": "art_raw/tank_red_wreck.png",
+    "title": "Tank - RED destroyed wreck",
+    "tier": 1,
+    "type": "edit",
+    "edit_of": "art_raw/tank_blue_wreck.png",
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Edit this image. Keep EVERYTHING exactly the same - design, pose, angle, size, position, lighting, damage, effects and the flat green background. Change only the team color: every blue glowing light, visor and accent stripe becomes bright red (#FF3B3B)."
+  },
+  {
+    "order": 11,
+    "file": "art_raw/trooper_blue_idle_ne.png",
+    "title": "Mortar Trooper - BLUE idle, facing NE (up-right)",
+    "tier": 1,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image",
+      "tank_blue_idle_ne.png"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A heavily armored sci-fi infantry soldier in full power armor with an enclosed helmet and glowing visor, carrying a chunky shoulder-mounted mortar launcher tube, standing ready in a combat stance.\n\nArt style: match the attached reference image exactly - dark sci-fi military, highly detailed 3D game render, premium mobile strategy game quality, realistic gunmetal and armor materials, dramatic rim lighting, glowing team-colored accent lights.\nCamera: 3/4 top-down view looking down at about 60 degrees with slight perspective - the same camera angle as the reference image.\nTeam color: electric blue (#2E9BFF) glowing lights, visor and accent stripes.\nFacing: the unit faces diagonally UP-RIGHT, away from the camera - we see its back and left side, exactly like the reference tank.\nComposition: exactly ONE object, centered, the entire object fully visible inside the frame with about 10% empty margin on every side. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 12,
+    "file": "art_raw/trooper_blue_idle_sw.png",
+    "title": "Mortar Trooper - BLUE idle, facing SW (down-left)",
+    "tier": 1,
+    "type": "edit",
+    "edit_of": "art_raw/trooper_blue_idle_ne.png",
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Edit this image. Show the SAME unit, identical design, details, colors, size and the flat green background, but turned around on the ground so it now faces diagonally DOWN-LEFT, toward the camera - we see its front and right side. Same 3/4 top-down camera height."
+  },
+  {
+    "order": 13,
+    "file": "art_raw/trooper_blue_fire_ne.png",
+    "title": "Mortar Trooper - BLUE firing, facing NE",
+    "tier": 1,
+    "type": "edit",
+    "edit_of": "art_raw/trooper_blue_idle_ne.png",
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Edit this image. Keep the exact same unit, design, colors, size, position, camera angle, lighting and the flat green background. Change only this: the soldier is FIRING the shoulder mortar - bright flash and smoke puff at the launcher muzzle, a shell just leaving the tube, slight recoil pose."
+  },
+  {
+    "order": 14,
+    "file": "art_raw/trooper_blue_fire_sw.png",
+    "title": "Mortar Trooper - BLUE firing, facing SW",
+    "tier": 1,
+    "type": "edit",
+    "edit_of": "art_raw/trooper_blue_idle_sw.png",
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Edit this image. Keep the exact same unit, design, colors, size, position, camera angle, lighting and the flat green background. Change only this: the soldier is FIRING the shoulder mortar - bright flash and smoke puff at the launcher muzzle, a shell just leaving the tube, slight recoil pose."
+  },
+  {
+    "order": 15,
+    "file": "art_raw/trooper_red_idle_ne.png",
+    "title": "Mortar Trooper - RED idle, facing NE (up-right)",
+    "tier": 1,
+    "type": "edit",
+    "edit_of": "art_raw/trooper_blue_idle_ne.png",
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Edit this image. Keep EVERYTHING exactly the same - design, pose, angle, size, position, lighting, damage, effects and the flat green background. Change only the team color: every blue glowing light, visor and accent stripe becomes bright red (#FF3B3B)."
+  },
+  {
+    "order": 16,
+    "file": "art_raw/trooper_red_idle_sw.png",
+    "title": "Mortar Trooper - RED idle, facing SW (down-left)",
+    "tier": 1,
+    "type": "edit",
+    "edit_of": "art_raw/trooper_blue_idle_sw.png",
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Edit this image. Keep EVERYTHING exactly the same - design, pose, angle, size, position, lighting, damage, effects and the flat green background. Change only the team color: every blue glowing light, visor and accent stripe becomes bright red (#FF3B3B)."
+  },
+  {
+    "order": 17,
+    "file": "art_raw/trooper_red_fire_ne.png",
+    "title": "Mortar Trooper - RED firing, facing NE",
+    "tier": 1,
+    "type": "edit",
+    "edit_of": "art_raw/trooper_blue_fire_ne.png",
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Edit this image. Keep EVERYTHING exactly the same - design, pose, angle, size, position, lighting, damage, effects and the flat green background. Change only the team color: every blue glowing light, visor and accent stripe becomes bright red (#FF3B3B)."
+  },
+  {
+    "order": 18,
+    "file": "art_raw/trooper_red_fire_sw.png",
+    "title": "Mortar Trooper - RED firing, facing SW",
+    "tier": 1,
+    "type": "edit",
+    "edit_of": "art_raw/trooper_blue_fire_sw.png",
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Edit this image. Keep EVERYTHING exactly the same - design, pose, angle, size, position, lighting, damage, effects and the flat green background. Change only the team color: every blue glowing light, visor and accent stripe becomes bright red (#FF3B3B)."
+  },
+  {
+    "order": 19,
+    "file": "art_raw/mine_blue_idle.png",
+    "title": "Mine Drone - BLUE idle",
+    "tier": 1,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image",
+      "tank_blue_idle_ne.png"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A spherical hovering proximity-mine drone: dark armored metal ball with panel seams, a ring of small thrusters underneath, one glowing sensor eye and thin glowing light strips.\n\nArt style: match the attached reference image exactly - dark sci-fi military, highly detailed 3D game render, premium mobile strategy game quality, realistic gunmetal and armor materials, dramatic rim lighting, glowing team-colored accent lights.\nCamera: 3/4 top-down view looking down at about 60 degrees with slight perspective - the same camera angle as the reference image.\nTeam color: electric blue (#2E9BFF) glowing lights, visor and accent stripes.\nComposition: exactly ONE object, centered, the entire object fully visible inside the frame with about 10% empty margin on every side. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 20,
+    "file": "art_raw/mine_blue_armed.png",
+    "title": "Mine Drone - BLUE armed (about to explode)",
+    "tier": 1,
+    "type": "edit",
+    "edit_of": "art_raw/mine_blue_idle.png",
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Edit this image. Keep the exact same unit, design, colors, size, position, camera angle, lighting and the flat green background. Change only this: the mine is ARMED and about to explode - all lights glowing intensely bright, sharp spikes extended out of the sphere, crackling energy sparks around it."
+  },
+  {
+    "order": 21,
+    "file": "art_raw/mine_red_idle.png",
+    "title": "Mine Drone - RED idle",
+    "tier": 1,
+    "type": "edit",
+    "edit_of": "art_raw/mine_blue_idle.png",
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Edit this image. Keep EVERYTHING exactly the same - design, pose, angle, size, position, lighting, damage, effects and the flat green background. Change only the team color: every blue glowing light, visor and accent stripe becomes bright red (#FF3B3B)."
+  },
+  {
+    "order": 22,
+    "file": "art_raw/mine_red_armed.png",
+    "title": "Mine Drone - RED armed (about to explode)",
+    "tier": 1,
+    "type": "edit",
+    "edit_of": "art_raw/mine_blue_armed.png",
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Edit this image. Keep EVERYTHING exactly the same - design, pose, angle, size, position, lighting, damage, effects and the flat green background. Change only the team color: every blue glowing light, visor and accent stripe becomes bright red (#FF3B3B)."
+  },
+  {
+    "order": 23,
+    "file": "art_raw/rocket_blue_idle_ne.png",
+    "title": "Rocket Launcher - BLUE idle, facing NE (up-right)",
+    "tier": 1,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image",
+      "tank_blue_idle_ne.png"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A sci-fi tracked missile launcher vehicle: armored cab and a tilted launch rack holding 2 large missiles ready to fire, glowing lights.\n\nArt style: match the attached reference image exactly - dark sci-fi military, highly detailed 3D game render, premium mobile strategy game quality, realistic gunmetal and armor materials, dramatic rim lighting, glowing team-colored accent lights.\nCamera: 3/4 top-down view looking down at about 60 degrees with slight perspective - the same camera angle as the reference image.\nTeam color: electric blue (#2E9BFF) glowing lights, visor and accent stripes.\nFacing: the unit faces diagonally UP-RIGHT, away from the camera - we see its back and left side, exactly like the reference tank.\nComposition: exactly ONE object, centered, the entire object fully visible inside the frame with about 10% empty margin on every side. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 24,
+    "file": "art_raw/rocket_blue_idle_sw.png",
+    "title": "Rocket Launcher - BLUE idle, facing SW (down-left)",
+    "tier": 1,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "rocket_blue_idle_ne.png",
+      "tank_blue_idle_sw.png"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Create a NEW image of the missile launcher vehicle shown in the FIRST attached image - same design, same armor, same twin missile rack, same blue lights - but seen from the OPPOSITE side, facing the SAME direction as the tank in the SECOND attached image: its front cab and the missile tips point toward the BOTTOM-LEFT corner, toward the camera, so we see the front and right side of the launcher. Do not draw the tank.\n\nArt style: match the attached reference image exactly - dark sci-fi military, highly detailed 3D game render, premium mobile strategy game quality, realistic gunmetal and armor materials, dramatic rim lighting, glowing team-colored accent lights.\nCamera: 3/4 top-down view looking down at about 60 degrees with slight perspective - the same camera angle as the reference image.\nComposition: exactly ONE object, centered, the entire object fully visible inside the frame with about 10% empty margin on every side. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 25,
+    "file": "art_raw/rocket_blue_fired_ne.png",
+    "title": "Rocket Launcher - BLUE just fired, facing NE",
+    "tier": 1,
+    "type": "edit",
+    "edit_of": "art_raw/rocket_blue_idle_ne.png",
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Edit this image. Keep the exact same unit, design, colors, size, position, camera angle, lighting and the flat green background. Change only this: the missiles have just been LAUNCHED - the rack is now empty, bright exhaust flames and thick smoke blasting from the launch rails."
+  },
+  {
+    "order": 26,
+    "file": "art_raw/rocket_blue_fired_sw.png",
+    "title": "Rocket Launcher - BLUE just fired, facing SW",
+    "tier": 1,
+    "type": "edit",
+    "edit_of": "art_raw/rocket_blue_idle_sw.png",
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Edit this image. Keep the exact same unit, design, colors, size, position, camera angle, lighting and the flat green background. Change only this: the missiles have just been LAUNCHED - the rack is now empty, bright exhaust flames and thick smoke blasting from the launch rails."
+  },
+  {
+    "order": 27,
+    "file": "art_raw/rocket_red_idle_ne.png",
+    "title": "Rocket Launcher - RED idle, facing NE (up-right)",
+    "tier": 1,
+    "type": "edit",
+    "edit_of": "art_raw/rocket_blue_idle_ne.png",
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Edit this image. Keep EVERYTHING exactly the same - design, pose, angle, size, position, lighting, damage, effects and the flat green background. Change only the team color: every blue glowing light, visor and accent stripe becomes bright red (#FF3B3B)."
+  },
+  {
+    "order": 28,
+    "file": "art_raw/rocket_red_idle_sw.png",
+    "title": "Rocket Launcher - RED idle, facing SW (down-left)",
+    "tier": 1,
+    "type": "edit",
+    "edit_of": "art_raw/rocket_blue_idle_sw.png",
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Edit this image. Keep EVERYTHING exactly the same - design, pose, angle, size, position, lighting, damage, effects and the flat green background. Change only the team color: every blue glowing light, visor and accent stripe becomes bright red (#FF3B3B)."
+  },
+  {
+    "order": 29,
+    "file": "art_raw/rocket_red_fired_ne.png",
+    "title": "Rocket Launcher - RED just fired, facing NE",
+    "tier": 1,
+    "type": "edit",
+    "edit_of": "art_raw/rocket_blue_fired_ne.png",
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Edit this image. Keep EVERYTHING exactly the same - design, pose, angle, size, position, lighting, damage, effects and the flat green background. Change only the team color: every blue glowing light, visor and accent stripe becomes bright red (#FF3B3B)."
+  },
+  {
+    "order": 30,
+    "file": "art_raw/rocket_red_fired_sw.png",
+    "title": "Rocket Launcher - RED just fired, facing SW",
+    "tier": 1,
+    "type": "edit",
+    "edit_of": "art_raw/rocket_blue_fired_sw.png",
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Edit this image. Keep EVERYTHING exactly the same - design, pose, angle, size, position, lighting, damage, effects and the flat green background. Change only the team color: every blue glowing light, visor and accent stripe becomes bright red (#FF3B3B)."
+  },
+  {
+    "order": 31,
+    "file": "art_raw/bunker_blue_intact.png",
+    "title": "Main Bunker - BLUE intact",
+    "tier": 1,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image",
+      "tank_blue_idle_ne.png"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A massive armored sci-fi command fortress (the MAIN BUNKER): thick concrete-and-steel walls, a heavy blast door at the front, defensive gun turrets on the corners, antennas and a glowing energy core on the roof.\n\nArt style: match the attached reference image exactly - dark sci-fi military, highly detailed 3D game render, premium mobile strategy game quality, realistic gunmetal and armor materials, dramatic rim lighting, glowing team-colored accent lights.\nCamera: 3/4 top-down view looking down at about 60 degrees with slight perspective - the same camera angle as the reference image.\nTeam color: electric blue (#2E9BFF) glowing lights, energy core and accent stripes. Facing: the front blast door faces the camera (bottom of the image).\nComposition: exactly ONE object, centered, the entire object fully visible inside the frame with about 10% empty margin on every side. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 32,
+    "file": "art_raw/bunker_blue_damaged.png",
+    "title": "Main Bunker - BLUE damaged",
+    "tier": 1,
+    "type": "edit",
+    "edit_of": "art_raw/bunker_blue_intact.png",
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Edit this image. Keep the exact same unit, design, colors, size, position, camera angle, lighting and the flat green background. Change only this: the bunker is HEAVILY DAMAGED - cracked walls, blown-off armor plates, fires burning on the roof, smoke, flickering lights."
+  },
+  {
+    "order": 33,
+    "file": "art_raw/bunker_blue_destroyed.png",
+    "title": "Main Bunker - BLUE destroyed",
+    "tier": 1,
+    "type": "edit",
+    "edit_of": "art_raw/bunker_blue_intact.png",
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Edit this image. Keep the exact same unit, design, colors, size, position, camera angle, lighting and the flat green background. Change only this: the bunker is COMPLETELY DESTROYED - collapsed into a smoking pile of rubble and twisted steel, small fires and embers, all lights dead."
+  },
+  {
+    "order": 34,
+    "file": "art_raw/bunker_red_intact.png",
+    "title": "Main Bunker - RED intact",
+    "tier": 1,
+    "type": "edit",
+    "edit_of": "art_raw/bunker_blue_intact.png",
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Edit this image. Keep EVERYTHING exactly the same - design, pose, angle, size, position, lighting, damage, effects and the flat green background. Change only the team color: every blue glowing light, visor and accent stripe becomes bright red (#FF3B3B)."
+  },
+  {
+    "order": 35,
+    "file": "art_raw/bunker_red_damaged.png",
+    "title": "Main Bunker - RED damaged",
+    "tier": 1,
+    "type": "edit",
+    "edit_of": "art_raw/bunker_blue_damaged.png",
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Edit this image. Keep EVERYTHING exactly the same - design, pose, angle, size, position, lighting, damage, effects and the flat green background. Change only the team color: every blue glowing light, visor and accent stripe becomes bright red (#FF3B3B)."
+  },
+  {
+    "order": 36,
+    "file": "art_raw/bunker_red_destroyed.png",
+    "title": "Main Bunker - RED destroyed",
+    "tier": 1,
+    "type": "edit",
+    "edit_of": "art_raw/bunker_blue_destroyed.png",
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Edit this image. Keep EVERYTHING exactly the same - design, pose, angle, size, position, lighting, damage, effects and the flat green background. Change only the team color: every blue glowing light, visor and accent stripe becomes bright red (#FF3B3B)."
+  },
+  {
+    "order": 37,
+    "file": "art_raw/fx_explosion_sheet.png",
+    "title": "Explosion animation (sprite sheet)",
+    "tier": 1,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A sprite sheet for a video game: a 4 by 4 grid of 16 equal square cells showing ONE big fiery explosion animation in order, read left-to-right, top-to-bottom. Frame 1 (top-left) is a tiny white-hot flash, frames 2-6 grow into a huge orange fireball with sparks, frames 7-12 turn into dark smoke with embers, frames 13-16 (bottom-right) fade to thin wisps. Viewed from above. Each frame centered in its own cell, nothing crossing cell borders, no grid lines, no numbers. Realistic VFX style.\nBackground: completely solid pure black (#000000), nothing else in the image, no text, no watermark."
+  },
+  {
+    "order": 38,
+    "file": "art_raw/fx_muzzle_flash.png",
+    "title": "Muzzle flash",
+    "tier": 1,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A single bright gun muzzle flash burst seen from above: white-hot core with orange-yellow star-shaped flame spikes. Realistic VFX. Square 1:1 image.\nBackground: completely solid pure black (#000000), nothing else in the image, no text, no watermark."
+  },
+  {
+    "order": 39,
+    "file": "art_raw/fx_missile.png",
+    "title": "Missile projectile",
+    "tier": 1,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A single sci-fi missile: white body, red nose tip, small fins, glowing engine nozzle at the back. Pointing straight UP, viewed from above.\nArt style: match the attached reference image exactly - dark sci-fi military, highly detailed 3D game render, premium mobile strategy game quality, realistic gunmetal and armor materials, dramatic rim lighting, glowing team-colored accent lights.\nComposition: exactly ONE object, centered, the entire object fully visible inside the frame with about 10% empty margin on every side. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 40,
+    "file": "art_raw/fx_shell.png",
+    "title": "Mortar shell",
+    "tier": 1,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A single small dark metal mortar shell glowing orange-hot, viewed from above.\nArt style: match the attached reference image exactly - dark sci-fi military, highly detailed 3D game render, premium mobile strategy game quality, realistic gunmetal and armor materials, dramatic rim lighting, glowing team-colored accent lights.\nComposition: exactly ONE object, centered, the entire object fully visible inside the frame with about 10% empty margin on every side. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 41,
+    "file": "art_raw/fx_shield_dome.png",
+    "title": "Energy shield dome",
+    "tier": 1,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A glowing hemispherical energy shield dome made of a hexagon grid pattern: translucent white-cyan light, bright glowing rim at the base, empty inside, seen from 3/4 above like the reference image. Square 1:1 image.\nBackground: completely solid pure black (#000000), nothing else in the image, no text, no watermark."
+  },
+  {
+    "order": 42,
+    "file": "art_raw/fx_crater.png",
+    "title": "Blast crater decal",
+    "tier": 1,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A blast crater / scorch mark decal seen straight from above: blackened burnt center, cracked rock, soot spread in a rough circle. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 43,
+    "file": "art_raw/fx_laser_bolt.png",
+    "title": "Tracer bolt",
+    "tier": 1,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A single glowing energy tracer bolt: a thin vertical capsule with a white-hot core and a soft glow around it. Square 1:1 image.\nBackground: completely solid pure black (#000000), nothing else in the image, no text, no watermark."
+  },
+  {
+    "order": 44,
+    "file": "art_raw/env_ground_tile.png",
+    "title": "Battlefield ground (seamless)",
+    "tier": 1,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A seamless, tileable top-down texture of dark rocky battlefield terrain at night: dark grey-blue cracked rock, gravel, dust, small craters and faint scorch marks, viewed straight from above, even soft lighting. No objects, no grid lines, no text. The left/right and top/bottom edges must tile perfectly. Square 1:1 image."
+  },
+  {
+    "order": 45,
+    "file": "art_raw/env_rocks.png",
+    "title": "Rock cluster prop",
+    "tier": 3,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A small cluster of dark jagged rocks and gravel.\nArt style: match the attached reference image exactly - dark sci-fi military, highly detailed 3D game render, premium mobile strategy game quality, realistic gunmetal and armor materials, dramatic rim lighting, glowing team-colored accent lights.\nCamera: 3/4 top-down view looking down at about 60 degrees with slight perspective - the same camera angle as the reference image.\nComposition: exactly ONE object, centered, the entire object fully visible inside the frame with about 10% empty margin on every side. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 46,
+    "file": "art_raw/env_wreckage.png",
+    "title": "Vehicle wreckage prop",
+    "tier": 3,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Scattered burnt wreckage of a destroyed sci-fi vehicle, twisted metal, small embers.\nArt style: match the attached reference image exactly - dark sci-fi military, highly detailed 3D game render, premium mobile strategy game quality, realistic gunmetal and armor materials, dramatic rim lighting, glowing team-colored accent lights.\nCamera: 3/4 top-down view looking down at about 60 degrees with slight perspective - the same camera angle as the reference image.\nComposition: exactly ONE object, centered, the entire object fully visible inside the frame with about 10% empty margin on every side. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 47,
+    "file": "art_raw/env_barricade.png",
+    "title": "Barricade prop",
+    "tier": 3,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A short sci-fi steel barricade wall with hazard stripes.\nArt style: match the attached reference image exactly - dark sci-fi military, highly detailed 3D game render, premium mobile strategy game quality, realistic gunmetal and armor materials, dramatic rim lighting, glowing team-colored accent lights.\nCamera: 3/4 top-down view looking down at about 60 degrees with slight perspective - the same camera angle as the reference image.\nComposition: exactly ONE object, centered, the entire object fully visible inside the frame with about 10% empty margin on every side. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 48,
+    "file": "art_raw/bg_menu.png",
+    "title": "Main menu background (vertical)",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "9:16",
+    "done": false,
+    "prompt": "Epic vertical key art for a mobile strategy game main menu: a dark rocky battlefield at night. A blue army (armored soldiers, tanks, missile launchers and a glowing blue-domed bunker) at the bottom faces a red army with a red glowing fortress at the top. Laser fire crosses the middle, explosions, sparks, smoke, faint holographic grid lines on the ground. Keep the top 25% darker and simpler (space for the logo) and the bottom 35% darker (space for buttons). Same art style as the reference image. No text. Vertical 9:16 image."
+  },
+  {
+    "order": 49,
+    "file": "art_raw/bg_loading.png",
+    "title": "Loading screen (vertical)",
+    "tier": 3,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "9:16",
+    "done": false,
+    "prompt": "Vertical loading-screen art for the same game: a close-up of a blue armored mortar trooper and a blue heavy tank advancing through smoke on a dark rocky battlefield, red laser fire in the background, dramatic lighting. Keep the bottom 20% dark for a progress bar. Same art style as the reference image. No text. Vertical 9:16 image."
+  },
+  {
+    "order": 50,
+    "file": "art_raw/ui_btn_fold.png",
+    "title": "FOLD & FIGHT button (no text)",
+    "tier": 1,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "16:9",
+    "done": false,
+    "prompt": "A wide glossy capsule-shaped game button plate: hot glowing orange-red energy core inside a dark gunmetal frame, small yellow light bars at both ends, like the button in the reference image but EMPTY.\nStyle: sci-fi military mobile game UI, dark gunmetal and glass, glowing edge lights, crisp and clean, perfectly front-facing and flat (not tilted), NO text or letters anywhere.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 51,
+    "file": "art_raw/ui_btn_fold_pressed.png",
+    "title": "FOLD button pressed",
+    "tier": 1,
+    "type": "edit",
+    "edit_of": "art_raw/ui_btn_fold.png",
+    "attach": [],
+    "aspect": "16:9",
+    "done": false,
+    "prompt": "Edit this image. Keep the exact same unit, design, colors, size, position, camera angle, lighting and the flat green background. Change only this: the button is PRESSED - slightly darker, glow dimmer, looks pushed in."
+  },
+  {
+    "order": 52,
+    "file": "art_raw/ui_btn_green.png",
+    "title": "Button plate - green",
+    "tier": 2,
+    "type": "edit",
+    "edit_of": "art_raw/ui_btn_fold.png",
+    "attach": [],
+    "aspect": "16:9",
+    "done": false,
+    "prompt": "Edit this image. Keep the exact same unit, design, colors, size, position, camera angle, lighting and the flat green background. Change only this: change the glowing energy color to green (#3DDC6B). Keep it empty with no text."
+  },
+  {
+    "order": 53,
+    "file": "art_raw/ui_btn_blue.png",
+    "title": "Button plate - blue",
+    "tier": 2,
+    "type": "edit",
+    "edit_of": "art_raw/ui_btn_fold.png",
+    "attach": [],
+    "aspect": "16:9",
+    "done": false,
+    "prompt": "Edit this image. Keep the exact same unit, design, colors, size, position, camera angle, lighting and the flat green background. Change only this: change the glowing energy color to blue (#2E9BFF). Keep it empty with no text."
+  },
+  {
+    "order": 54,
+    "file": "art_raw/ui_btn_red.png",
+    "title": "Button plate - red",
+    "tier": 2,
+    "type": "edit",
+    "edit_of": "art_raw/ui_btn_fold.png",
+    "attach": [],
+    "aspect": "16:9",
+    "done": false,
+    "prompt": "Edit this image. Keep the exact same unit, design, colors, size, position, camera angle, lighting and the flat green background. Change only this: change the glowing energy color to red (#FF3B3B). Keep it empty with no text."
+  },
+  {
+    "order": 55,
+    "file": "art_raw/ui_btn_gold.png",
+    "title": "Button plate - gold",
+    "tier": 2,
+    "type": "edit",
+    "edit_of": "art_raw/ui_btn_fold.png",
+    "attach": [],
+    "aspect": "16:9",
+    "done": false,
+    "prompt": "Edit this image. Keep the exact same unit, design, colors, size, position, camera angle, lighting and the flat green background. Change only this: change the glowing energy color to gold (#FFC83D). Keep it empty with no text."
+  },
+  {
+    "order": 56,
+    "file": "art_raw/ui_hinge_bar.png",
+    "title": "Hinge bar",
+    "tier": 1,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "21:9",
+    "done": false,
+    "prompt": "A very long, thin horizontal sci-fi metal hinge bar for a foldable device: dark gunmetal with rivets and panel lines, glowing amber indicator lights near both ends and an empty socket in the middle. Perfectly horizontal and stretching the full width of the image.\nStyle: sci-fi military mobile game UI, dark gunmetal and glass, glowing edge lights, crisp and clean, perfectly front-facing and flat (not tilted), NO text or letters anywhere.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 57,
+    "file": "art_raw/ui_header_bar.png",
+    "title": "Sector header bar",
+    "tier": 1,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "21:9",
+    "done": false,
+    "prompt": "A thin wide sci-fi HUD header strip: dark translucent glass plate with a bevelled gunmetal edge and a thin glowing white line along the bottom. Perfectly horizontal, stretching the full width.\nStyle: sci-fi military mobile game UI, dark gunmetal and glass, glowing edge lights, crisp and clean, perfectly front-facing and flat (not tilted), NO text or letters anywhere.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 58,
+    "file": "art_raw/ui_panel.png",
+    "title": "Dialog panel frame",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "3:4",
+    "done": false,
+    "prompt": "An empty sci-fi game dialog panel: dark translucent navy-black glass center, bevelled gunmetal border with glowing cyan edge lines and small corner bolts, nothing inside the panel.\nStyle: sci-fi military mobile game UI, dark gunmetal and glass, glowing edge lights, crisp and clean, perfectly front-facing and flat (not tilted), NO text or letters anywhere.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 59,
+    "file": "art_raw/ui_card_blue.png",
+    "title": "Unit card frame - blue",
+    "tier": 1,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "3:4",
+    "done": false,
+    "prompt": "A vertical sci-fi unit card frame (trading-card shape): dark metal border with glowing blue edges, empty dark center, small empty badge slot in the top-right corner.\nStyle: sci-fi military mobile game UI, dark gunmetal and glass, glowing edge lights, crisp and clean, perfectly front-facing and flat (not tilted), NO text or letters anywhere.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 60,
+    "file": "art_raw/ui_card_gold.png",
+    "title": "Unit card frame - selected (gold)",
+    "tier": 1,
+    "type": "edit",
+    "edit_of": "art_raw/ui_card_blue.png",
+    "attach": [],
+    "aspect": "3:4",
+    "done": false,
+    "prompt": "Edit this image. Keep the exact same unit, design, colors, size, position, camera angle, lighting and the flat green background. Change only this: change the glowing edges to bright gold (#FFC83D) and make the glow stronger."
+  },
+  {
+    "order": 61,
+    "file": "art_raw/ui_skill_frame.png",
+    "title": "Round skill button frame",
+    "tier": 1,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A round sci-fi skill button frame: thick gunmetal ring with a glowing cyan inner rim, empty dark glass center.\nStyle: sci-fi military mobile game UI, dark gunmetal and glass, glowing edge lights, crisp and clean, perfectly front-facing and flat (not tilted), NO text or letters anywhere.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 62,
+    "file": "art_raw/ui_banner_victory.png",
+    "title": "Victory banner plate",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "16:9",
+    "done": false,
+    "prompt": "A wide golden winged victory banner plate with a ribbon and glowing light rays behind it, empty center area. Sci-fi military style.\nStyle: sci-fi military mobile game UI, dark gunmetal and glass, glowing edge lights, crisp and clean, perfectly front-facing and flat (not tilted), NO text or letters anywhere.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 63,
+    "file": "art_raw/ui_banner_defeat.png",
+    "title": "Defeat banner plate",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "16:9",
+    "done": false,
+    "prompt": "A wide dark broken steel banner plate with cracks, a dim red glow and drifting smoke, empty center area. Sci-fi military style.\nStyle: sci-fi military mobile game UI, dark gunmetal and glass, glowing edge lights, crisp and clean, perfectly front-facing and flat (not tilted), NO text or letters anywhere.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 64,
+    "file": "art_raw/icon_coin.png",
+    "title": "Coin",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A thick gold coin with an embossed military star emblem and a bevelled rim.\nStyle: polished 3D mobile game icon, bold readable silhouette, glossy materials, soft rim light, front view, centered, fills about 80% of the frame. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 65,
+    "file": "art_raw/icon_gem.png",
+    "title": "Gem (premium currency)",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A faceted glowing purple-pink crystal gem.\nStyle: polished 3D mobile game icon, bold readable silhouette, glossy materials, soft rim light, front view, centered, fills about 80% of the frame. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 66,
+    "file": "art_raw/icon_trophy.png",
+    "title": "Trophy",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A golden trophy cup with a star on the front and a dark base.\nStyle: polished 3D mobile game icon, bold readable silhouette, glossy materials, soft rim light, front view, centered, fills about 80% of the frame. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 67,
+    "file": "art_raw/icon_star.png",
+    "title": "Star (earned)",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A chunky glossy gold star with a thick dark outline.\nStyle: polished 3D mobile game icon, bold readable silhouette, glossy materials, soft rim light, front view, centered, fills about 80% of the frame. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 68,
+    "file": "art_raw/icon_star_empty.png",
+    "title": "Star (empty slot)",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A chunky star shape in dark matte gunmetal with a thick outline, unlit.\nStyle: polished 3D mobile game icon, bold readable silhouette, glossy materials, soft rim light, front view, centered, fills about 80% of the frame. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 69,
+    "file": "art_raw/icon_skill_hide.png",
+    "title": "Skill: Hide / Cloak",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A glowing purple eye crossed by a diagonal line, stealth-cloak symbol.\nStyle: polished 3D mobile game icon, bold readable silhouette, glossy materials, soft rim light, front view, centered, fills about 80% of the frame. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 70,
+    "file": "art_raw/icon_skill_boost.png",
+    "title": "Skill: Overcharge",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A glowing yellow-orange lightning bolt bursting with energy.\nStyle: polished 3D mobile game icon, bold readable silhouette, glossy materials, soft rim light, front view, centered, fills about 80% of the frame. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 71,
+    "file": "art_raw/icon_skill_radar.png",
+    "title": "Skill: Radar Scan",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A round green radar screen with a sweeping beam and one red blip.\nStyle: polished 3D mobile game icon, bold readable silhouette, glossy materials, soft rim light, front view, centered, fills about 80% of the frame. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 72,
+    "file": "art_raw/icon_skill_shield.png",
+    "title": "Skill: Bunker Shield",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A glowing cyan energy shield with hexagon pattern.\nStyle: polished 3D mobile game icon, bold readable silhouette, glossy materials, soft rim light, front view, centered, fills about 80% of the frame. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 73,
+    "file": "art_raw/icon_skill_foldpreview.png",
+    "title": "Skill: Fold Preview",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "icon_skill_shield.png",
+      "icon_skill_radar.png"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A glowing hologram sheet of paper folding in half along a bright orange crease, small red and blue target dots shining through it.\nStyle: polished 3D mobile game icon, bold readable silhouette, glossy materials, soft rim light, front view, centered, fills about 80% of the frame. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 74,
+    "file": "art_raw/icon_lock.png",
+    "title": "Lock",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A heavy steel padlock with a glowing red keyhole.\nStyle: polished 3D mobile game icon, bold readable silhouette, glossy materials, soft rim light, front view, centered, fills about 80% of the frame. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 75,
+    "file": "art_raw/icon_timer.png",
+    "title": "Turn timer",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A sci-fi stopwatch with a glowing amber ring.\nStyle: polished 3D mobile game icon, bold readable silhouette, glossy materials, soft rim light, front view, centered, fills about 80% of the frame. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 76,
+    "file": "art_raw/icon_sound_on.png",
+    "title": "Sound on",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A metallic speaker with glowing sound waves.\nStyle: polished 3D mobile game icon, bold readable silhouette, glossy materials, soft rim light, front view, centered, fills about 80% of the frame. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 77,
+    "file": "art_raw/icon_sound_off.png",
+    "title": "Sound off",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A metallic speaker with a red X.\nStyle: polished 3D mobile game icon, bold readable silhouette, glossy materials, soft rim light, front view, centered, fills about 80% of the frame. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 78,
+    "file": "art_raw/icon_settings.png",
+    "title": "Settings",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A metallic gear cog with a glowing cyan center.\nStyle: polished 3D mobile game icon, bold readable silhouette, glossy materials, soft rim light, front view, centered, fills about 80% of the frame. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 79,
+    "file": "art_raw/league_bronze.png",
+    "title": "League badge - Bronze",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A military rank emblem badge for the BRONZE league: shield shape with wings and a star, made of bronze metal, simple design. Higher leagues look more epic. No text.\nStyle: polished 3D mobile game icon, bold readable silhouette, glossy materials, soft rim light, front view, centered, fills about 80% of the frame. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 80,
+    "file": "art_raw/league_silver.png",
+    "title": "League badge - Silver",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A military rank emblem badge for the SILVER league: shield shape with wings and a star, made of polished silver metal. Higher leagues look more epic. No text.\nStyle: polished 3D mobile game icon, bold readable silhouette, glossy materials, soft rim light, front view, centered, fills about 80% of the frame. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 81,
+    "file": "art_raw/league_gold.png",
+    "title": "League badge - Gold",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A military rank emblem badge for the GOLD league: shield shape with wings and a star, made of shiny gold with small rubies. Higher leagues look more epic. No text.\nStyle: polished 3D mobile game icon, bold readable silhouette, glossy materials, soft rim light, front view, centered, fills about 80% of the frame. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 82,
+    "file": "art_raw/league_crystal.png",
+    "title": "League badge - Crystal",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A military rank emblem badge for the CRYSTAL league: shield shape with wings and a star, made of glowing purple crystal and silver. Higher leagues look more epic. No text.\nStyle: polished 3D mobile game icon, bold readable silhouette, glossy materials, soft rim light, front view, centered, fills about 80% of the frame. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 83,
+    "file": "art_raw/league_master.png",
+    "title": "League badge - Master",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A military rank emblem badge for the MASTER league: shield shape with wings and a star, made of cyan energy-glowing dark steel. Higher leagues look more epic. No text.\nStyle: polished 3D mobile game icon, bold readable silhouette, glossy materials, soft rim light, front view, centered, fills about 80% of the frame. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 84,
+    "file": "art_raw/league_champion.png",
+    "title": "League badge - Champion",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A military rank emblem badge for the CHAMPION league: shield shape with wings and a star, made of fiery orange-red glowing metal with flames. Higher leagues look more epic. No text.\nStyle: polished 3D mobile game icon, bold readable silhouette, glossy materials, soft rim light, front view, centered, fills about 80% of the frame. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 85,
+    "file": "art_raw/league_legend.png",
+    "title": "League badge - Legend",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A military rank emblem badge for the LEGEND league: shield shape with wings and a star, made of black obsidian with glowing magenta light and a small crown on top. Higher leagues look more epic. No text.\nStyle: polished 3D mobile game icon, bold readable silhouette, glossy materials, soft rim light, front view, centered, fills about 80% of the frame. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 86,
+    "file": "art_raw/avatar_player.png",
+    "title": "Avatar - You (player)",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Square game avatar portrait, head and shoulders, of a sci-fi army commander in power armor, confident expression, cinematic lighting, same art style as the reference image, solid dark navy background (#0B1220). No text. Square 1:1 image.\nCharacter: blue-accented armor, helmet off, short hair, friendly but tough."
+  },
+  {
+    "order": 87,
+    "file": "art_raw/avatar_viper.png",
+    "title": "Avatar - General Viper",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Square game avatar portrait, head and shoulders, of a sci-fi army commander in power armor, confident expression, cinematic lighting, same art style as the reference image, solid dark navy background (#0B1220). No text. Square 1:1 image.\nCharacter: red-accented armor, snake insignia, scarred face, cold stare."
+  },
+  {
+    "order": 88,
+    "file": "art_raw/avatar_blitz.png",
+    "title": "Avatar - Captain Blitz",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image",
+      "avatar_viper.png"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Square game avatar portrait, head and shoulders, of a sci-fi army commander in power armor, confident expression, cinematic lighting, same art style as the reference image, solid dark navy background (#0B1220). No text. Square 1:1 image.\nCharacter: red-accented armor, lightning bolt helmet decal, wild grin."
+  },
+  {
+    "order": 89,
+    "file": "art_raw/avatar_kobra.png",
+    "title": "Avatar - Major Kobra",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image",
+      "avatar_viper.png"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Square game avatar portrait, head and shoulders, of a sci-fi army commander in power armor, confident expression, cinematic lighting, same art style as the reference image, solid dark navy background (#0B1220). No text. Square 1:1 image.\nCharacter: red-accented armor, hood-shaped helmet, glowing red visor."
+  },
+  {
+    "order": 90,
+    "file": "art_raw/avatar_boomer.png",
+    "title": "Avatar - Sgt. Boomer",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image",
+      "avatar_viper.png"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Square game avatar portrait, head and shoulders, of a sci-fi army commander in power armor, confident expression, cinematic lighting, same art style as the reference image, solid dark navy background (#0B1220). No text. Square 1:1 image.\nCharacter: red-accented heavy armor, big beard, cigar, explosives belt."
+  },
+  {
+    "order": 91,
+    "file": "art_raw/avatar_bruno.png",
+    "title": "Avatar - Tanker Bruno",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image",
+      "avatar_viper.png"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Square game avatar portrait, head and shoulders, of a sci-fi army commander in power armor, confident expression, cinematic lighting, same art style as the reference image, solid dark navy background (#0B1220). No text. Square 1:1 image.\nCharacter: red-accented armor, tank-crew headset, huge muscular build."
+  },
+  {
+    "order": 92,
+    "file": "art_raw/avatar_mango.png",
+    "title": "Avatar - Colonel Mango",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image",
+      "avatar_viper.png"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Square game avatar portrait, head and shoulders, of a sci-fi army commander in power armor, confident expression, cinematic lighting, same art style as the reference image, solid dark navy background (#0B1220). No text. Square 1:1 image.\nCharacter: red-accented armor, orange beret, mustache, medals."
+  },
+  {
+    "order": 93,
+    "file": "art_raw/avatar_fizz.png",
+    "title": "Avatar - Lt. Fizz",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image",
+      "avatar_viper.png"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Square game avatar portrait, head and shoulders, of a sci-fi army commander in power armor, confident expression, cinematic lighting, same art style as the reference image, solid dark navy background (#0B1220). No text. Square 1:1 image.\nCharacter: red-accented light armor, goggles on forehead, young and cocky."
+  },
+  {
+    "order": 94,
+    "file": "art_raw/store_coins_s.png",
+    "title": "Coins - small pack",
+    "tier": 3,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A small neat stack of gold coins with a military star emblem.\nStyle: polished 3D mobile game icon, bold readable silhouette, glossy materials, soft rim light, front view, centered, fills about 80% of the frame. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 95,
+    "file": "art_raw/store_coins_m.png",
+    "title": "Coins - medium pack",
+    "tier": 3,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A canvas army sack overflowing with gold coins.\nStyle: polished 3D mobile game icon, bold readable silhouette, glossy materials, soft rim light, front view, centered, fills about 80% of the frame. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 96,
+    "file": "art_raw/store_coins_l.png",
+    "title": "Coins - large pack",
+    "tier": 3,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "An open armored supply crate overflowing with gold coins, glowing.\nStyle: polished 3D mobile game icon, bold readable silhouette, glossy materials, soft rim light, front view, centered, fills about 80% of the frame. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 97,
+    "file": "art_raw/store_gems_s.png",
+    "title": "Gems - small pack",
+    "tier": 3,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image",
+      "store_gems_l.png"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A small pile of glowing purple-pink crystal gems.\nStyle: polished 3D mobile game icon, bold readable silhouette, glossy materials, soft rim light, front view, centered, fills about 80% of the frame. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 98,
+    "file": "art_raw/store_gems_m.png",
+    "title": "Gems - medium pack",
+    "tier": 3,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image",
+      "store_gems_l.png"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A metal tray full of glowing purple-pink crystal gems.\nStyle: polished 3D mobile game icon, bold readable silhouette, glossy materials, soft rim light, front view, centered, fills about 80% of the frame. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 99,
+    "file": "art_raw/store_gems_l.png",
+    "title": "Gems - large pack",
+    "tier": 3,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image",
+      "store_gems_l.png"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "An open sci-fi vault case packed with glowing purple-pink gems, light beams.\nStyle: polished 3D mobile game icon, bold readable silhouette, glossy materials, soft rim light, front view, centered, fills about 80% of the frame. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 100,
+    "file": "art_raw/store_chest_closed.png",
+    "title": "Supply chest - closed",
+    "tier": 3,
+    "type": "edit",
+    "edit_of": "art_raw/store_chest_open.png",
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Edit this image. Keep the exact same unit, design, colors, size, position, camera angle, lighting and the flat green background. Change only this: the chest LID IS CLOSED and locked - no light or sparks coming out, the blue seams still glow softly."
+  },
+  {
+    "order": 101,
+    "file": "art_raw/store_chest_open.png",
+    "title": "Supply chest - open",
+    "tier": 3,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "store_coins_l.png"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "The same sci-fi supply chest, lid open, bright golden light and sparks bursting out.\nStyle: polished 3D mobile game icon, bold readable silhouette, glossy materials, soft rim light, front view, centered, fills about 80% of the frame. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 102,
+    "file": "art_raw/store_full_unlock.png",
+    "title": "Full game unlock",
+    "tier": 3,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A golden commander badge with wings and a glowing key in the middle, premium and epic.\nStyle: polished 3D mobile game icon, bold readable silhouette, glossy materials, soft rim light, front view, centered, fills about 80% of the frame. Square 1:1 image.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 103,
+    "file": "art_raw/logo.png",
+    "title": "Game logo",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "16:9",
+    "done": false,
+    "prompt": "Game logo with the exact text 'FOLD WARFARE' (spelled exactly like that, two words). 'FOLD' on top in heavy chiselled glowing orange-gold hot metal letters, 'WARFARE' below in brushed steel letters with a blue edge glow. Sci-fi military style, strong 3D bevel, a few sparks. Nothing else.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  },
+  {
+    "order": 104,
+    "file": "art_raw/app_icon.png",
+    "title": "App icon",
+    "tier": 3,
+    "type": "text",
+    "edit_of": null,
+    "attach": [
+      "concept image"
+    ],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Mobile app icon: a blue armored tank and a red armored tank facing each other across a glowing orange fold line in the middle, dark rocky battlefield, dramatic lighting, rounded-square composition, same art style as the reference image. No text. Square 1:1 image."
+  },
+  {
+    "order": 105,
+    "file": "art_raw/trooper_blue_dead.png",
+    "title": "Mortar Trooper - BLUE defeated (lying down)",
+    "tier": 2,
+    "type": "edit",
+    "edit_of": "art_raw/trooper_blue_idle_sw.png",
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Edit this image. Keep the exact same unit, design, colors, size, position, camera angle, lighting and the flat green background. Change only this: the soldier is DEFEATED - lying flat on the ground on his back, armor scorched, visor dark, the mortar tube dropped beside him, a thin wisp of smoke."
+  },
+  {
+    "order": 106,
+    "file": "art_raw/trooper_red_dead.png",
+    "title": "Mortar Trooper - RED defeated",
+    "tier": 2,
+    "type": "edit",
+    "edit_of": "art_raw/trooper_blue_dead.png",
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Edit this image. Keep EVERYTHING exactly the same - design, pose, angle, size, position, lighting, damage, effects and the flat green background. Change only the team color: every blue glowing light, visor and accent stripe becomes bright red (#FF3B3B)."
+  },
+  {
+    "order": 107,
+    "file": "art_raw/rocket_blue_wreck.png",
+    "title": "Rocket Launcher - BLUE destroyed wreck",
+    "tier": 2,
+    "type": "edit",
+    "edit_of": "art_raw/rocket_blue_idle_ne.png",
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Edit this image. Keep the exact same unit, design, colors, size, position, camera angle, lighting and the flat green background. Change only this: the launcher is DESTROYED - burnt black armor, launch rack torn off and lying crooked, broken treads, small fires and smoke, all lights off."
+  },
+  {
+    "order": 108,
+    "file": "art_raw/rocket_red_wreck.png",
+    "title": "Rocket Launcher - RED destroyed wreck",
+    "tier": 2,
+    "type": "edit",
+    "edit_of": "art_raw/rocket_blue_wreck.png",
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Edit this image. Keep EVERYTHING exactly the same - design, pose, angle, size, position, lighting, damage, effects and the flat green background. Change only the team color: every blue glowing light, visor and accent stripe becomes bright red (#FF3B3B)."
+  },
+  {
+    "order": 109,
+    "file": "art_raw/bunker_blue_firing.png",
+    "title": "Main Bunker - BLUE turrets firing",
+    "tier": 2,
+    "type": "edit",
+    "edit_of": "art_raw/bunker_blue_intact.png",
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Edit this image. Keep the exact same unit, design, colors, size, position, camera angle, lighting and the flat green background. Change only this: all corner gun turrets are FIRING at once - bright muzzle flashes and small smoke puffs at every turret barrel."
+  },
+  {
+    "order": 110,
+    "file": "art_raw/bunker_red_firing.png",
+    "title": "Main Bunker - RED turrets firing",
+    "tier": 2,
+    "type": "edit",
+    "edit_of": "art_raw/bunker_blue_firing.png",
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "Edit this image. Keep EVERYTHING exactly the same - design, pose, angle, size, position, lighting, damage, effects and the flat green background. Change only the team color: every blue glowing light, visor and accent stripe becomes bright red (#FF3B3B)."
+  },
+  {
+    "order": 111,
+    "file": "art_raw/fx_deploy_sheet.png",
+    "title": "Unit deploy / teleport-in beam (16 frames)",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A sprite sheet for a video game: a 4 by 4 grid of 16 EQUAL square cells, one animation in order, read left-to-right, top-to-bottom. Each frame centered in its own cell, nothing crossing cell borders, the same scale and position in every cell so the frames line up. No grid lines, no numbers, no text.\nAnimation: a holographic DEPLOY effect seen from 3/4 above: frame 1 a tiny spark on the ground, frames 2-5 a bright white-cyan beam of light strikes down from the sky, frames 6-10 a glowing hexagon hologram ring expands on the ground with sparks, frames 11-16 the beam thins out and the ring fades away.\nBackground: completely solid pure black (#000000), nothing else in the image, no text, no watermark."
+  },
+  {
+    "order": 112,
+    "file": "art_raw/fx_smoke_sheet.png",
+    "title": "Smoke puff (16 frames)",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A sprite sheet for a video game: a 4 by 4 grid of 16 EQUAL square cells, one animation in order, read left-to-right, top-to-bottom. Each frame centered in its own cell, nothing crossing cell borders, the same scale and position in every cell so the frames line up. No grid lines, no numbers, no text.\nAnimation: a puff of thick grey smoke seen from above: starts small and dense, billows outward and rises, then thins and fades to nothing by the last frame.\nBackground: completely solid pure black (#000000), nothing else in the image, no text, no watermark."
+  },
+  {
+    "order": 113,
+    "file": "art_raw/fx_spark_sheet.png",
+    "title": "Electric spark / EMP burst (16 frames)",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A sprite sheet for a video game: a 4 by 4 grid of 16 EQUAL square cells, one animation in order, read left-to-right, top-to-bottom. Each frame centered in its own cell, nothing crossing cell borders, the same scale and position in every cell so the frames line up. No grid lines, no numbers, no text.\nAnimation: an electric EMP burst seen from above: crackling white-cyan lightning arcs explode outward from the center, flicker brightly, then fizzle out into small sparks.\nBackground: completely solid pure black (#000000), nothing else in the image, no text, no watermark."
+  },
+  {
+    "order": 114,
+    "file": "art_raw/fx_fire_loop_sheet.png",
+    "title": "Burning fire loop (16 frames)",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A sprite sheet for a video game: a 4 by 4 grid of 16 EQUAL square cells, one animation in order, read left-to-right, top-to-bottom. Each frame centered in its own cell, nothing crossing cell borders, the same scale and position in every cell so the frames line up. No grid lines, no numbers, no text.\nAnimation: a small cluster of realistic orange-yellow flames burning on the ground, seen from 3/4 above. This is a LOOP: frame 16 must flow smoothly back into frame 1, the flames flicker but stay the same size.\nBackground: completely solid pure black (#000000), nothing else in the image, no text, no watermark."
+  },
+  {
+    "order": 115,
+    "file": "art_raw/fx_shield_hit_sheet.png",
+    "title": "Shield impact ripple (16 frames)",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A sprite sheet for a video game: a 4 by 4 grid of 16 EQUAL square cells, one animation in order, read left-to-right, top-to-bottom. Each frame centered in its own cell, nothing crossing cell borders, the same scale and position in every cell so the frames line up. No grid lines, no numbers, no text.\nAnimation: an impact hitting a hexagon energy shield: a bright white flash at the center, a ring of glowing hexagon cells ripples outward, then fades back to nothing.\nBackground: completely solid pure black (#000000), nothing else in the image, no text, no watermark."
+  },
+  {
+    "order": 116,
+    "file": "art_raw/fx_shockwave_sheet.png",
+    "title": "Ground shockwave (16 frames)",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A sprite sheet for a video game: a 4 by 4 grid of 16 EQUAL square cells, one animation in order, read left-to-right, top-to-bottom. Each frame centered in its own cell, nothing crossing cell borders, the same scale and position in every cell so the frames line up. No grid lines, no numbers, no text.\nAnimation: a ground-level blast shockwave seen from 3/4 above: a bright ring of dust and light expands outward from the center and fades, small debris flying out.\nBackground: completely solid pure black (#000000), nothing else in the image, no text, no watermark."
+  },
+  {
+    "order": 117,
+    "file": "art_raw/fx_coin_spin_sheet.png",
+    "title": "Gold coin spinning (16 frames)",
+    "tier": 2,
+    "type": "text",
+    "edit_of": null,
+    "attach": [],
+    "aspect": "1:1",
+    "done": false,
+    "prompt": "A sprite sheet for a video game: a 4 by 4 grid of 16 EQUAL square cells, one animation in order, read left-to-right, top-to-bottom. Each frame centered in its own cell, nothing crossing cell borders, the same scale and position in every cell so the frames line up. No grid lines, no numbers, no text.\nAnimation: ONE thick gold coin with a military star emblem spinning a full turn around its vertical axis: frame 1 facing front, the thin edge at frame 5, the back at frame 9, the edge again at frame 13, almost front again at frame 16 so it loops smoothly.\nBackground: completely flat, solid pure green (#00FF00) chroma-key color filling the whole background - no gradient, no floor, no ground plane, no cast shadow, no reflections, no text, no logo, no watermark, nothing else in the image."
+  }
+]
